@@ -1,0 +1,93 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .import-users {
+    float: left;
+    position: relative;
+    border-radius: 4px;
+    background: #e9fef5;
+    border: 5px solid #26a06d;
+    transition: all 300ms ease-in-out;
+    -webkit-box-shadow: 0 9px 10px 0 rgba(165,165,165,0.2);
+    box-shadow: 0 9px 10px 0 rgba(165,165,165,0.2);
+}
+.import-users:hover{
+    -webkit-box-shadow: 0 9px 20px 0 rgba(165,165,165,0.5);
+    box-shadow: 0 9px 20px 0 rgba(165,165,165,0.5);
+}
+.custom-import {margin-left: 30px; }
+.import-users .theme-name {
+    font-size: 15px;
+    font-weight: 600;
+    height: 18px;
+    margin: 0;
+    overflow: hidden;
+    padding: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-top: 1px solid #2a9f72;
+    position: relative;
+    background: #e9fef5;
+}
+.import-users .user-actions {
+    bottom: 0;
+    height: 38px;
+    opacity: 1;
+    padding: 9px 10px 0;
+    position: absolute;
+    right: 0;
+    transition: opacity 0.1s ease-in-out 0s;
+    background: transparent;
+    border: 0;
+}
+.wp-core-ui .import-users .button-primary {
+    min-height: auto;
+    line-height: 30px;
+    background: #35ce8d;
+    border-color: #35ce8d;
+}
+.import-users:hover img{opacity: 1;}
+.import-users img {
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    border-radius: 4px 4px 0 0;
+}
+#upload-dummy-csv{
+    display: none;
+}
+.theme-name .button-primary{margin-top: -5px;}
+ /* / Jquery Confirm Box / */
+.jconfirm.jconfirm-modern .jconfirm-box{
+    max-width: 500px;
+}
+
+.column-sj_varifiled .dashicons-before {
+    position: relative;
+}
+
+.sj-icon-color-green:before {
+    content: "\f147";
+    color: #4caf50;
+    position: absolute;
+    top: -7px;
+    right: 13px;
+    width: 20px;
+    height: 20px;
+    background: #4caf5021;
+    border-radius: 50px;
+    line-height: 20px;
+}
+.sj-icon-color-red:before {
+    content: "\f335";
+    color: #FF5722;
+    position: absolute;
+    top: -7px;
+    right: 13px;
+    width: 20px;
+    height: 20px;
+    background: #ff57221a;
+    border-radius: 50px;
+    line-height: 20px;
+}

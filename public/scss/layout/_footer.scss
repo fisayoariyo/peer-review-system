@@ -1,0 +1,93 @@
+/** ====== header layout ====== **/
+.sj-header{
+    &_wrap{
+        display: flex;
+        align-items: center;
+    }
+    &_logo{
+        flex: none;
+        width: 100%;
+        display: block;
+        padding: 20px 0;
+        max-width: 118px;
+    }
+    &_login{
+        display: flex;
+        align-items: center;
+    }
+}
+/** --- navbar styling --- **/
+.sj-navbar{
+    flex: auto;
+    padding: 20px;
+    &_list{
+        @extend %flex;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: 0;
+        li{
+            list-style-type: none;
+            a{
+                @extend %h6;
+                color: $dark;
+                display: block;
+                font-weight: 600;
+                padding: 0 15px;
+                i{
+                    font-size: rem(20);
+                    padding-left: 10px;
+                    vertical-align: middle;
+                }
+                &:hover{
+                    color: $dark;
+                }
+            }
+        }
+    }
+}
+.sj-userinfo{
+    margin-left: auto;
+    @extend %flex;
+    align-items: center;
+    & > a{
+        @extend %h6;
+        font-weight: 600;
+        color: $dark;
+        padding: 0 10px;
+        position: relative;
+        &:hover{
+            color: $dark;
+        }
+        i{
+            font-size: 24px;
+            vertical-align: middle;
+        }
+    }
+    .sj-reminder-tag{
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        padding: 0 7.5px;
+        font-size: 11px;
+        width: 22px;
+        height: 22px;
+        display: grid;
+        place-items: center;
+    }
+}
+.sj-usermenu{
+    & > a{
+        padding: 0 10px;
+        & > img{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+.sj-navbtn{
+    padding-left: 10px;
+}
+.menu-item-has-children{
+    position: relative;
+}

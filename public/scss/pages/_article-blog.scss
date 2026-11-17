@@ -1,0 +1,46 @@
+.sj-blog-section{
+    [class^="col-"]{
+        margin-top: 20px;
+    }
+}
+.sj-blog-holder{
+    background-color: $white;
+    border-radius: 10px;
+    border: 1px solid $lightest_03;
+    @extend %transitiontwo;
+    &:hover{
+        box-shadow: $drop_shadows_light;
+        .sj-actionbtn{
+            background-color: $theme_color;
+        }
+
+    }
+    figure{
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 0;
+        img{
+            max-width: 416px;
+            width: 100%;
+            height: 250px;
+            border-radius: inherit;
+            object-fit: cover;
+        }
+    }
+}
+.sj-blog-content{
+    padding: 20px 19px;
+    strong{
+        > a{
+            display: inline-block;
+            @extend %p14;
+        }
+    }
+    h5{
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+    .sj-actionbtn{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

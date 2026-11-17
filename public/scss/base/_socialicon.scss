@@ -1,0 +1,227 @@
+/** ====== Social icon ====== **/
+.sj-socialmedia{
+    @extend %flex;
+    gap:10px 20px;
+    padding-left: 14px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 0;
+    li{
+        list-style: none;
+        display: flex;
+        &:hover,
+        &.active{
+            a{
+                color: $white;
+            }
+            &.sj-facebookv3 > i,
+            &.sj-facebookv3 > a {color: #3b5999}
+            &.sj-facebook-messengerv3 > a,
+            &.sj-facebook-messengerv3 > i {color: #0084ff}
+            &.sj-twitterv3> a,
+            &.sj-twitterv3 > i {color: #55acee}
+            &.sj-twitchv3> a,
+            &.sj-twitchv3 > i {color: #9147ff}
+            &.sj-linkedinv3> a,
+            &.sj-linkedinv3 > i {color: #0077b5}
+            &.sj-skypev3> a,
+            &.sj-skypev3 > i {color: #00aff0}
+            &.sj-dropboxv3> a,
+            &.sj-dropboxv3 > i {color: #007ee5}
+            &.sj-vimeov3> a,
+            &.sj-vimeov3 > i {color: #1ab7ea}
+            &.sj-tumblrv3 > i,
+            &.sj-tumblrv3> a {color: #34465d}
+            &.sj-yahoov3> a,
+            &.sj-yahoov3 >i {color: #410093}
+            &.sj-googleplusv3> a,
+            &.sj-googleplusv3 > i,
+            &.sj-googlev3> a,
+            &.sj-googlev3 > i{color: #dd4b39}
+            &.sj-pinterestpv3> a,
+            &.sj-pinterestpv3 > i {color: #bd081c}
+            &.sj-youtubev3> a,
+            &.sj-youtubev3 > i {color: #cd201f}
+            &.sj-stumbleuponv3> a,
+            &.sj-stumbleuponv3 > i {color: #eb4924}
+            &.sj-redditv3> a,
+            &.sj-redditv3 > i {color: #ff5700}
+            &.sj-quorav3> a,
+            &.sj-quorav3 > i {color: #b92b27}
+            &.sj-yelpv3> a,
+            &.sj-yelpv3 > i {color: #af0606}
+            &.sj-soundcloudv3> a,
+            &.sj-soundcloudv3 > i {color: #f30}
+            &.sj-whatsappv3> a,
+            &.sj-whatsappv3 > i {color: #25d366}
+            &.sj-wechatv3> a,
+            &.sj-wechatv3 > i {color: #09b83e}
+            &.sj-instagramv3> a,
+            &.sj-instagramv3 > i {color: #e4405f}
+            &.sj-dribbblev3> a,
+            &.sj-dribbblev3 > i {color: #ea4c89}
+            &.sj-flickrv3> a,
+            &.sj-flickrv3 > i {color: #ff0084}
+            &.sj-rssv3> a,
+            &.sj-rssv3 > i {color: #f60}
+            &.sj-behancev3> a,
+            &.sj-behancev3 > i {color: #131418}
+            &.sj-foursquarev3> a,
+            &.sj-foursquarev3 > i {color: #f94877}
+        }
+    }
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.5);
+        padding: 6px 0;
+        @extend %transition;
+        i{
+            font-size: 18px;
+        }
+    }
+}
+.sj-facebook > i,
+.sj-facebook > a {color: #3b5999}
+.sj-facebook-messenger > a,
+.sj-facebook-messenger > i {color: #0084ff}
+.sj-twitter> a,
+.sj-twitter > i {color: #55acee}
+.sj-twitch> a,
+.sj-twitch > i {color: #9147ff}
+.sj-linkedin> a,
+.sj-linkedin > i {color: #0077b5}
+.sj-skype> a,
+.sj-skype > i {color: #00aff0}
+.sj-dropbox> a,
+.sj-dropbox > i {color: #007ee5}
+.sj-vimeo> a,
+.sj-vimeo > i {color: #1ab7ea}
+.sj-tumblr > i,
+.sj-tumblr> a {color: #34465d}
+.sj-yahoo> a,
+.sj-yahoo >i {color: #410093}
+.sj-googleplus> a,
+.sj-googleplus > i,
+.sj-google> a,
+.sj-google > i{color: #dd4b39}
+.sj-pinterestp> a,
+.sj-pinterestp > i {color: #bd081c}
+.sj-youtube> a,
+.sj-youtube > i {color: #cd201f}
+.sj-stumbleupon> a,
+.sj-stumbleupon > i {color: #eb4924}
+.sj-reddit> a,
+.sj-reddit > i {color: #ff5700}
+.sj-quora> a,
+.sj-quora > i {color: #b92b27}
+.sj-yelp> a,
+.sj-yelp > i {color: #af0606}
+.sj-soundcloud> a,
+.sj-soundcloud > i {color: #f30}
+.sj-whatsapp> a,
+.sj-whatsapp > i {color: #25d366}
+.sj-wechat> a,
+.sj-wechat > i {color: #09b83e}
+.sj-instagram> a,
+.sj-instagram > i {color: #e4405f}
+.sj-dribbble> a,
+.sj-dribbble > i {color: #ea4c89}
+.sj-flickr> a,
+.sj-flickr > i {color: #ff0084}
+.sj-rss> a,
+.sj-rss > i {color: #f60}
+.sj-behance> a,
+.sj-behance > i {color: #131418}
+.sj-copy> a,
+.sj-copy > i {color: #999999}
+.sj-foursquare> a,
+.sj-foursquare > i {color: #f94877}
+
+.sj-facebookv2 {
+    i{
+        @extend %transition;
+    }
+    &:hover{
+        i{
+            color: #1877f2;
+        }
+    }
+} 
+.sj-twitterv2{
+    i{
+        @extend %transition;
+    }
+    &:hover{
+        i{
+            color: rgb(29, 155, 240);
+        }
+    }
+} 
+.sj-twitchv2{
+    i{
+        @extend %transition;
+    }
+    &:hover{
+        i{
+            color: #9147ff;
+        }
+    }
+} 
+.sj-linkedinv2{
+    i{
+        @extend %transition;
+        
+    }
+    &:hover{
+        
+        i{
+            color: #0a66c2;
+        }
+    }
+}
+
+.sj-dribbblev2{
+    i{
+        @extend %transition;
+        
+    }
+    &:hover{
+        i{
+            color: #ea4c89;
+        }
+    }
+} 
+.sj-youtubev2 {
+    i{
+        @extend %transition;
+        
+    }
+    &:hover{
+        i{
+            color: #cd201f;
+        }
+    }
+} 
+.sj-behancev2 {
+    i{
+        @extend %transition;
+        
+    }
+    &:hover{
+        i{
+            color: #131418
+        }
+    }
+}
+.sj-vimeov2{
+    i{ 
+        @extend %transition;
+    }
+    &:hover{
+        
+        i{
+            color: #1ab7ea;
+        }
+    }
+} 

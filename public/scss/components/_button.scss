@@ -1,0 +1,134 @@
+/** ====== button components ====== **/
+
+
+/** --- theme buttons --- **/
+
+.sj-approve-btn,
+.sj-secondery-btn,
+.prs-login,
+.sj-primebtn {
+    z-index: 0;
+    gap: 10px;
+    height: 40px;
+    @extend %h6;
+    color: $white;
+    padding: 0 24px;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    @extend %transition;
+    display: inline-flex;
+    align-items: center;
+    border-radius: $radius;
+    justify-content: center;
+    background-color: $primary_color;
+    span {
+        @extend %h6;
+        font-weight: 600;
+        +em {
+            padding-left: 10px
+        }
+    }
+    img {
+        margin: 0 10px 0 0
+    }
+    em {
+        @extend %small_title;
+        font-style: normal;
+        color: $hyperlink;
+        +i {
+            margin-left: 10px;
+        }
+    }
+    i {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    i.icon-plus {
+        before {
+            content: "\e9c0" !important;
+        }
+    }
+    &[disabled] {
+        background-color: $lightest_03;
+        color: $light;
+        border: 0;
+        pointer-events: none;
+        i {
+            color: $light;
+        }
+    }
+    &:hover,
+    &:focus {
+        outline: none;
+        color: $charcoal_black !important;
+    }
+}
+
+.sj-secondery-btn {
+    background-color: $theme_color;
+    color: $font_color;
+    &:hover,
+    &:focus {
+        color: $dark;
+    }
+}
+
+.sj-secondery-btn-lg {
+    @extend .sj-secondery-btn;
+    height: 48px;
+}
+
+.sj-approve-btn {
+    background-color: $bright_green;
+    color: $white;
+    &:hover,
+    &:focus {
+        color: $white;
+    }
+    i {
+        padding-left: 10px;
+        font-size: rem(20);
+        display: inline-block
+    }
+}
+
+.sj-approve-btn-lg {
+    @extend .sj-approve-btn;
+    height: 48px;
+}
+
+.sj-btn-line {
+    position: relative;
+    z-index: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    @extend %small_title;
+    font-weight: 600;
+    color: $charcoal_black;
+    background-color: transparent;
+    border-radius: $radiusv2;
+    border: 1px solid $lightest_03;
+    padding: 0 24px;
+    @extend %transition;
+    cursor: pointer;
+    width: 100%;
+    i {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    &:hover,
+    &:active {
+        color: $charcoal_black;
+    }
+}
+
+.sj-approve-btn,
+.sj-secondery-btn,
+.prs-login,
+.sj-primebtn {
+    background-color: $theme_color;
+    color: $charcoal_black;
+}

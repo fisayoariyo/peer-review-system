@@ -1,0 +1,68 @@
+/** TABLE OF CONTENTS
+------------------------------------------------------------/
+1 - Abstracts
+        1.1 - # Sass Variables
+        1.2 - # Sass Functions
+        1.3 - # Sass Placeholders
+
+2 - Base
+        2.1 - # Reset/normalize
+        2.2 - # Typography rules
+        2.3 - # Keyframes
+        2.4 - # Globalclasses
+        2.5 - # Socialicon
+
+3 - Components
+        3.1 - Buttons
+        3.2 - Form
+4 - layout
+        4.1 - Header
+        4.2 - Footer
+5 - pages
+        5.1 - add-new-article
+        5.2 - add-under-review
+        5.3 - article-detail
+        5.4 - articles-list
+        5.5 - manage-editions
+        5.6 - notifications
+        5.7 - login
+6 - Responsive
+        6.1 - Responsive Sass file
+        
+/// END TABLE OF CONTENTS **/
+
+// 1 - Abstracts
+@import "abstracts/variables",   
+        "abstracts/functions",
+        "abstracts/placeholders";
+
+// 2 - Base
+@import "base/reset", 
+        "base/typography", 
+        "base/socialicon", 
+        "base/keyframes",
+        "base/globalclasses";
+
+// 3 - Components
+@import "components/button",
+        "components/form";
+
+// 4 - Layout
+@import "layout/header",
+        "layout/footer";
+
+
+// 5 - Pages
+@import "pages/add-new-article",
+        "pages/add-under-review",
+        "pages/article-detail",
+        "pages/articles-list",         
+        "pages/login",         
+        "pages/manage-editions",         
+        "pages/notifications",             
+        "pages/article-blog",         
+        "pages/invoice-detail";         
+
+
+// 6 - Responsive
+@import "responsive";

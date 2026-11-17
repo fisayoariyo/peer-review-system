@@ -1,0 +1,203 @@
+.sj-header {
+    &_wrap {
+        display: flex;
+        align-items: center;
+    }
+    &_logo {
+        flex: none;
+        width: 100%;
+        display: block;
+        padding: 20px 0;
+        max-width: 118px;
+    }
+    &_login {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.sj-navbar {
+    flex: auto;
+    padding: 20px;
+    &_list {
+        @extend %flex;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: 0;
+        li {
+            list-style-type: none;
+            a {
+                @extend %h6;
+                color: $dark;
+                display: block;
+                font-weight: 600;
+                padding: 0 15px;
+                i {
+                    font-size: rem(20);
+                    padding-left: 10px;
+                    vertical-align: middle;
+                }
+                &:hover {
+                    color: $dark;
+                }
+            }
+        }
+    }
+}
+
+.sj-userinfo {
+    margin-left: auto;
+    @extend %flex;
+    align-items: center;
+    &>a {
+        @extend %h6;
+        font-weight: 600;
+        color: $dark;
+        padding: 0 10px;
+        position: relative;
+        &:hover {
+            color: $dark;
+        }
+        i {
+            font-size: 24px;
+            vertical-align: middle;
+        }
+    }
+    .sj-reminder-tag {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        padding: 0 7.5px;
+        font-size: 11px;
+        width: 22px;
+        height: 22px;
+        display: grid;
+        place-items: center;
+    }
+}
+
+.sj-usermenu {
+    &>a {
+        padding: 0 10px;
+        &>img {
+            border-radius: 50%;
+        }
+    }
+}
+
+.sj-navbtn {
+    padding-left: 10px;
+}
+
+.menu-item-has-children {
+    position: relative;
+}
+
+.tu-navbar .sub-menu-holder .sub-menu,
+.sub-menu-holder .sub-menu {
+    margin: 0;
+    padding-left: 0;
+    transition: none;
+    top: 100%;
+    opacity: 1 !important;
+    visibility: visible !important;
+    right: 0;
+    box-shadow: $drop_shadows_light;
+    border-radius: 10px;
+    border: 1px solid $lighter;
+    min-width: 230px;
+    position: absolute;
+    z-index: 1051;
+    background-color: $white;
+    display: none;
+    li {
+        @extend %transition;
+        &:first-child {
+            >a {
+                border-radius: 10px 10px 0 0;
+            }
+        }
+        &:last-child {
+            >a {
+                border-radius: 0 0 10px 10px;
+            }
+        }
+        >a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        &:hover {
+            >a {
+                background-color: $lightest_02;
+            }
+        }
+    }
+}
+
+.tu-themenav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.prs-headerwrap__right {
+    display: flex;
+    >a {
+        margin-left: 24px;
+    }
+}
+
+.prs-navbarbtn {
+    position: relative;
+    a {
+        display: inline-flex;
+        align-items: center;
+        img {
+            max-width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.prs-menudropdown {
+    a {
+        align-items: center;
+        color: $font_color;
+        padding: 12px 20px;
+        @extend %transition;
+        display: flex !important;
+        font: 400 rem(15)/em(26, 15) $heading_font_family;
+        &:hover,
+        &:focus {
+            color: $font_color;
+        }
+        i {
+            color: $light;
+            margin-right: 10px;
+            font-size: rem(18);
+        }
+    }
+    &+li {
+        border-top: 1px solid $lightest_01;
+    }
+}
+
+.prs-avatar-name {
+    margin-bottom: 0;
+    font-weight: 600;
+    padding-left: 10px;
+    @extend %small_title;
+    line-height: 22px;
+    span {
+        display: block;
+        font-weight: 400;
+        color: $font_dark;
+        margin-top: -4px;
+    }
+}
+
+.tu-themenav .tu-headernav li a {
+    font-weight: 600;
+}

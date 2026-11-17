@@ -1,0 +1,199 @@
+/** ====== login page style ====== **/
+.sj-main-login{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+.sj-login-left{
+    width: 50%;
+    display: flex;
+    padding: 50px 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0A0F26;
+    strong{
+        > a{
+            img{
+                max-width: 250px;
+                width: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+
+    }
+    figure{
+        margin: 116px 0 0 0 !important;
+        img{
+            max-width: 590px;
+            width: 100%;
+        }
+    }
+    &_title{
+        text-align: center;
+        padding-top: 80px;
+        h2{
+            margin-bottom: 0;
+            color: $white;
+            font-weight: 600;
+        }
+        span{
+            @extend %h3;
+            font-weight: 400;
+            color: #FCCF14;
+        }
+    }
+}
+.sj-login-right{
+    width: 50%;
+    display: flex;
+    padding: 50px 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    &_title{
+        text-align: center;
+        h2{
+            margin-bottom: 0;
+            color: $charcoal_black;
+        }
+        h3{
+            margin: 10px 0 0 0;
+        }
+    }
+}
+.sj-login-form{
+    .form-group-wrap {
+        width: 100%;
+        max-width: 436px;
+        margin-top: 40px;
+    }
+    .form-group{
+        > .sj-secondery-btn{
+            width: 100%;
+        }
+        #google_signin{
+            width: 100%;
+        }
+    }
+    .sj-secondery-btn{
+        height: 48px;
+    }
+}
+.sj-optioanl-or{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+    span{
+        @extend %h6;
+        color: $light;
+        background-color: $white;
+        position: relative;
+        padding: 0 10px;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        height: 1px;
+        width: 100%;
+        background-color: $lighter;
+    }
+}
+.sj-btn-signup{
+    flex: auto;
+    @extend %h6;
+    color: $dark;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border : 1.5px solid $lighter;
+    img{
+        padding-right: 10px;
+    }
+    &:hover,
+    &:focus{
+        background-color: #fff;
+        color: $dark;
+    }
+}
+.sj-lost-password{
+    justify-content: space-between;
+    a{
+        @extend %h6;
+        font-weight: 600;
+        color: $hyperlink;
+    }
+    .sj-password-clr_light{
+        color: $light;
+        &:hover{
+            color: $light;
+        }
+    }
+}
+.sj-signup-check{
+    padding: 10px 0;
+    label{
+        span{
+            color: $light;
+        }
+    }
+}
+.sj-registration-wrapper{
+    flex-direction: column;
+    align-items: flex-start;
+    & > h6{
+        font-weight: 600;
+        margin: 0;
+    }
+}
+.sj-registration-user{
+    margin-top: 10px;
+    gap: 12px;
+    @extend %flex;
+    align-items: center;
+    .sj-check{
+        width: 48%;   
+        & input[type="radio"]:checked{
+            & + label{
+                color: $dark;
+            }
+        }
+        & label{
+            @extend %h6;
+            color: $light;
+            font-weight: 600;
+        }
+        
+    }
+}
+.ast-single-post .entry-content a, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a){
+    text-decoration: none;
+}
+.journal-auth-back{
+    top: 10px;
+    left: 10px;
+    @extend %h6;
+    display: none;
+    position: fixed;
+    background: $white;
+    align-items: center;
+    border-radius: 50px;
+    color: $charcoal_black;
+    padding: 5px 20px 5px 5px;
+    border: 2px solid $lighter;
+    i{
+        width: 30px;
+        color: $white;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        margin-right: 10px;
+        background: $theme_color;
+    }
+    &:hover{color: $charcoal_black;}
+}

@@ -1,0 +1,16 @@
+wp-config.php
+.env
+.env.*
+*.sql
+*.sql.gz
+*.dump
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db
+*.log
+.local/

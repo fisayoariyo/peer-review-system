@@ -1,0 +1,4153 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journal management and Peer review system\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-22 07:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Domain: peer-review-system"
+
+#: templates/dashboard/author/approved-article-listings.php:78
+#: templates/dashboard/author/major-revision-article-listings.php:82
+#: templates/dashboard/author/minor-revision-article-listings.php:79
+#: templates/dashboard/author/rejected-article-listings.php:75
+#: templates/dashboard/editor/approved-article-listings.php:73
+#: templates/dashboard/editor/articles-review-listings.php:83
+#: templates/dashboard/editor/major-revision-article-listings.php:76
+#: templates/dashboard/editor/minor-revision-article-listings.php:76
+#: templates/dashboard/editor/rejected-article-listings.php:76
+#: templates/dashboard/reviewer/approved-article-listings.php:92
+#: templates/dashboard/reviewer/assigned-articles.php:113
+#: templates/dashboard/reviewer/major-revision-article-listings.php:88
+#: templates/dashboard/reviewer/minor-revision-article-listings.php:87
+#: templates/dashboard/reviewer/rejected-article-listings.php:88
+msgid " New"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:305
+msgid " Terms &amp; conditions"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:256
+msgid " to Upload documents"
+msgstr ""
+
+#: helpers/email-helper.php:128
+msgid " | All Rights Reserved"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:175
+#: templates/article-loop/author-article-feedback.php:134
+#, php-format
+msgctxt "%s"
+msgid "%s ago"
+msgstr ""
+
+#: public/partials/functions.php:72
+msgid "&#197;land Islands"
+msgstr ""
+
+#: templates/forgot.php:73 templates/forgot.php:142 templates/login.php:69
+#: templates/login.php:78 templates/registration.php:75
+#: templates/registration.php:84 templates/registration.php:93
+#: templates/registration.php:102
+msgid "*"
+msgstr ""
+
+#: templates/article-loop/article-categories.php:45
+#, php-format
+msgid "+%s more"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:71
+msgid "1 lower case"
+msgstr ""
+
+#: public/partials/functions.php:430
+msgid "1 lower case<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:73
+msgid "1 number"
+msgstr ""
+
+#: public/partials/functions.php:432
+msgid "1 number<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:72
+msgid "1 special character"
+msgstr ""
+
+#: public/partials/functions.php:431
+msgid "1 special character<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:70
+msgid "1 upper case"
+msgstr ""
+
+#: public/partials/functions.php:429
+msgid "1 upper case<br>"
+msgstr ""
+
+#: helpers/templates/editor-emails.php:123
+#: helpers/templates/reviewer-emails.php:33
+#: admin/plugin-settings/settings/email-settings.php:1143
+msgid "A new article has been received for review"
+msgstr ""
+
+#: helpers/templates/register.php:78
+msgid ""
+"A new user has been registered on the site with the name {{name}} and email "
+"address {{email}}"
+msgstr ""
+
+#: helpers/templates/register.php:240
+msgid ""
+"A new user has been registered on the site with the name {{name}} and email "
+"address {{email}}. <br /> The registration is pending for approval, you can "
+"login  {{login_url}} to the admin to approve the account."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:200
+msgid "A new user “{{name}}” signed up with an email address “{{email}}”."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:131
+msgid ""
+"A new user “{{name}}” signed up with an email address “{{email}}”. <br /> "
+"Please login here to approve user account {{login_url}}."
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:102
+msgid "Accept"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:476
+msgid "Account Approval Request"
+msgstr ""
+
+#: helpers/templates/register.php:162
+#: admin/plugin-settings/settings/email-settings.php:547
+msgid "Account approved"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:197
+#, php-format
+msgid "Account has been %s and email has been sent to user."
+msgstr ""
+
+#: helpers/templates/register.php:198
+#: admin/plugin-settings/settings/email-settings.php:609
+msgid "Account rejected"
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:79
+#: templates/dashboard/user-invoices.php:96
+msgid "Action"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:16
+msgid "Add a new article"
+msgstr ""
+
+#: templates/dashboard/menus/author/dashboard-menus.php:56
+msgid "Add article"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:131
+msgid "Add article author"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:54
+msgid "Add copyright text for the emails in footer"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:92
+msgid "Add edition now"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:47
+msgid ""
+"Add email sender email here like: johndoe@example.com. Default your site "
+"email will be used."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:40
+msgid ""
+"Add email sender name here like: Shawn Biyeam. Default your site name will "
+"be used."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:60
+msgid "Add email sender signature here"
+msgstr ""
+
+#: templates/article-loop/article-revision-reply.php:51
+#: templates/article-loop/article-revision-reply.php:53
+msgid "Add feedback to revision"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:105
+msgid "Add File"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:108
+msgid "Add file extension by comma seperated text"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:109
+msgid "Add logo. leave it empty to hide."
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:198
+msgid "Add more"
+msgstr ""
+
+#: admin/cpt/articles.php:43 admin/cpt/articles.php:44
+msgid "Add new article"
+msgstr ""
+
+#: admin/cpt/editions.php:43 admin/cpt/editions.php:44
+#: templates/dashboard/editor/manage-editions.php:60
+msgid "Add new edition"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:161
+msgid "Add short description. leave it empty to hide."
+msgstr ""
+
+#: elementor/shortcodes/auth.php:128
+msgid "Add tagline. leave it empty to hide."
+msgstr ""
+
+#: elementor/shortcodes/auth.php:119
+msgid "Add text. leave it empty to hide."
+msgstr ""
+
+#: elementor/shortcodes/auth.php:136
+msgid "Add welcome text. leave it empty to hide."
+msgstr ""
+
+#: templates/dashboard/personal-details.php:67
+#: templates/dashboard/personal-details.php:69
+msgid "Add your tagline"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:132
+#: templates/dashboard/personal-details.php:88
+msgid "Address"
+msgstr ""
+
+#: widgets/class-growing-expanding.php:148
+msgid "Adds section description"
+msgstr ""
+
+#: widgets/class-growing-expanding.php:144
+msgid "Adds section title"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:91
+#: admin/plugin-settings/settings/email-settings.php:161
+msgid "Admin Email"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:148
+msgid "Admin email on new user registration"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:78
+msgid "Admin email verify user"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:68
+msgid "Administrator"
+msgstr ""
+
+#: public/partials/functions.php:71
+msgid "Afghanistan"
+msgstr ""
+
+#: public/partials/functions.php:73
+msgid "Albania"
+msgstr ""
+
+#: public/partials/functions.php:74
+msgid "Algeria"
+msgstr ""
+
+#: admin/cpt/articles.php:42
+msgid "All articles"
+msgstr ""
+
+#: admin/cpt/editions.php:42
+msgid "All editions"
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:61
+msgid "All invoices"
+msgstr ""
+
+#: public/partials/woo-hooks.php:322
+msgid "All set to go"
+msgstr ""
+
+#: templates/dashboard/article-status-search.php:18
+#: templates/dashboard/article-status-search.php:19
+#: templates/dashboard/reviewer/article-status-search.php:20
+#: templates/dashboard/reviewer/article-status-search.php:21
+msgid "All status"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:56
+msgid "Allow roles types"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:57
+msgid "Allow which role type of users can register on the front-end"
+msgstr ""
+
+#. Author of the plugin
+msgid "Amento Tech Pvt ltd"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:41
+msgid "Amentotech.Pvt.Ltd"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:154
+#: templates/dashboard/user-invoices.php:78
+#: templates/dashboard/user-invoices.php:95
+msgid "Amount"
+msgstr ""
+
+#: public/partials/functions.php:75
+msgid "Andorra"
+msgstr ""
+
+#: public/partials/functions.php:76
+msgid "Angola"
+msgstr ""
+
+#: public/partials/functions.php:77
+msgid "Anguilla"
+msgstr ""
+
+#: public/partials/functions.php:78
+msgid "Antarctica"
+msgstr ""
+
+#: public/partials/functions.php:79
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: templates/search-articles.php:95
+msgid "Apply filter"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:96
+msgid "Approve"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:108
+msgid "Approve user"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:97
+msgid "Approve user account"
+msgstr ""
+
+#: public/partials/hooks.php:144
+#: templates/article-loop/article-feedback.php:150
+#: templates/article-loop/author-article-feedback.php:107
+#: templates/dashboard/author/article-details.php:20
+#: templates/dashboard/editor/article-details.php:19
+#: templates/dashboard/reviewer/article-status-search.php:22
+msgid "Approved"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:194
+msgid "approved"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:87
+#: templates/dashboard/author/approved-article-listings.php:77
+#: templates/dashboard/editor/approved-article-listings.php:72
+#: templates/dashboard/reviewer/approved-article-listings.php:91
+#: templates/dashboard/menus/author/dashboard-menus.php:72
+#: templates/dashboard/menus/editor/dashboard-menus.php:76
+msgid "Approved articles"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:140
+msgid "Are you sure to delete this article."
+msgstr ""
+
+#: public/class-peer-review-system-public.php:138
+msgid "Are you sure to publish this edition."
+msgstr ""
+
+#: public/class-peer-review-system-public.php:142
+#: public/class-peer-review-system-public.php:143
+msgid "Are you sure to remove this edition."
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:106
+#, php-format
+msgid "Are you sure you want to %s user?"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:98
+msgid ""
+"Are you sure, you want to approve this account? An email will be sent to "
+"this user."
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:93
+msgid "Are you sure, you want to import users?"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:96
+msgid ""
+"Are you sure, you want to reject this account? After reject, this account "
+"will no longer visible in the search listing"
+msgstr ""
+
+#: public/partials/functions.php:80
+msgid "Argentina"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:904
+msgid "Aricles has been assign to the Edition"
+msgstr ""
+
+#: public/partials/functions.php:81
+msgid "Armenia"
+msgstr ""
+
+#: admin/cpt/articles.php:39 admin/cpt/articles.php:41
+msgid "Article"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:737
+msgid "Article approved"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1273
+msgid "Article assign to reviewer"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:119
+msgid "Article Author"
+msgstr ""
+
+#: templates/single-articles/article-author.php:23
+msgid "Article authors"
+msgstr ""
+
+#: templates/dashboard/article-search-form.php:42
+msgid "Article category"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2258
+msgid "Article data"
+msgstr ""
+
+#: admin/plugin-settings/settings/sample-article.php:30
+msgid "Article description"
+msgstr ""
+
+#: templates/dashboard/author/article-details.php:39
+#: templates/dashboard/editor/article-details.php:42
+#: templates/dashboard/reviewer/article-details.php:62
+msgid "Article details"
+msgstr ""
+
+#: templates/dashboard/editor/approved-article-listings.php:127
+#: templates/dashboard/editor/approved-article-listings.php:129
+msgid "Article download URL"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:120
+msgid "Article Editor"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:226
+msgid "Article excerpts"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:106
+msgid "Article file extensions"
+msgstr ""
+
+#: helpers/templates/editor-emails.php:165
+#: admin/plugin-settings/settings/email-settings.php:1206
+msgid "Article has been resubmitted for review"
+msgstr ""
+
+#: public/partials/woo-hooks.php:339
+msgid "Article is not published yet."
+msgstr ""
+
+#: templates/article-loop/article-quick-action.php:59
+#: templates/dashboard/editor/approved-article-listings.php:134
+#: templates/dashboard/editor/approved-article-listings.php:136
+#: templates/dashboard/editor/approved-article-listings.php:138
+msgid "Article price"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2096
+msgid "article price is required."
+msgstr ""
+
+#: admin/products-data/class-product-types.php:30
+msgid "Article product"
+msgstr ""
+
+#: public/partials/functions.php:926 public/partials/functions.php:927
+msgid "Article purchase"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:79
+msgid "Article purchase section"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:930
+msgid "Article rejected by the editor"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1198
+msgid "Article resubmitted"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:118
+msgid "Article Reviewer"
+msgstr ""
+
+#: helpers/templates/author-emails.php:216
+#: admin/plugin-settings/settings/email-settings.php:873
+msgid "Article revision required"
+msgstr ""
+
+#: admin/plugin-settings/settings/sample-article.php:16
+msgid "Article sample"
+msgstr ""
+
+#: admin/plugin-settings/settings/sample-article.php:24
+msgid "Article sample file for the authors"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1590
+msgid "Article status is missing!"
+msgstr ""
+
+#: helpers/templates/author-emails.php:32
+#: admin/plugin-settings/settings/email-settings.php:675
+#: admin/plugin-settings/settings/email-settings.php:683
+msgid "Article submitted"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2092
+msgid "Article third party download URL is required."
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:100
+msgid "Article title"
+msgstr ""
+
+#: admin/cpt/articles.php:38 admin/cpt/articles.php:40
+#: templates/dashboard/author/articles.php:69
+msgid "Articles"
+msgstr ""
+
+#: templates/dashboard/author/major-revision-article-listings.php:81
+msgid "Articles major revisions"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:37
+msgid "Articles search page"
+msgstr ""
+
+#: templates/dashboard/reviewer/major-revision-article-listings.php:87
+msgid "Articles Under Review"
+msgstr ""
+
+#: templates/dashboard/author/articles-review-listings.php:85
+#: templates/dashboard/editor/articles-review-listings.php:82
+#: templates/dashboard/reviewer/articles-review-listings.php:84
+#: templates/dashboard/menus/editor/dashboard-menus.php:66
+msgid "Articles under review"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:100
+msgid "Articles upload files types"
+msgstr ""
+
+#: public/partials/functions.php:82
+msgid "Aruba"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:175
+#: templates/dashboard/editor/manage-editions.php:272
+msgid "Assign articles"
+msgstr ""
+
+#: templates/article-loop/article-assign-reviewer.php:50
+#: templates/dashboard/editor/manage-editions.php:301
+msgid "Assign now"
+msgstr ""
+
+#: templates/article-loop/article-assign-reviewer.php:27
+#: templates/article-loop/article-assign-reviewer.php:30
+#: templates/article-loop/article-assign-reviewer.php:31
+msgid "Assign reviewer"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:154
+#: templates/dashboard/reviewer/assigned-articles.php:112
+#: templates/dashboard/menus/reviewer/dashboard-menus.php:60
+msgid "Assigned articles"
+msgstr ""
+
+#: public/partials/functions.php:83
+msgid "Australia"
+msgstr ""
+
+#: public/partials/functions.php:84
+msgid "Austria"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:39
+msgid "Authentication"
+msgstr ""
+
+#: templates/user-type-js-templates.php:26 admin/plugin-settings/init.php:64
+#: admin/plugin-settings/settings/email-settings.php:665
+#: admin/plugin-settings/settings/general-settings.php:47
+msgid "Author"
+msgstr ""
+
+#: helpers/templates/editor-emails.php:34
+#: admin/plugin-settings/settings/email-settings.php:1079
+msgid "Author comment on {{article_name}}"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1071
+msgid "Author comment to editor"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:157
+#: templates/dashboard/author/add-article.php:186
+msgid "Author email ID"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:145
+#: templates/dashboard/author/add-article.php:176
+msgid "Author name"
+msgstr ""
+
+#: public/partials/functions.php:85
+msgid "Azerbaijan"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:98
+msgid "Background image"
+msgstr ""
+
+#: public/partials/functions.php:86
+msgid "Bahamas"
+msgstr ""
+
+#: public/partials/functions.php:87
+msgid "Bahrain"
+msgstr ""
+
+#: public/partials/functions.php:88
+msgid "Bangladesh"
+msgstr ""
+
+#: public/partials/functions.php:89
+msgid "Barbados"
+msgstr ""
+
+#: public/partials/functions.php:90
+msgid "Belarus"
+msgstr ""
+
+#: public/partials/functions.php:92
+msgid "Belau"
+msgstr ""
+
+#: public/partials/functions.php:91
+msgid "Belgium"
+msgstr ""
+
+#: public/partials/functions.php:93
+msgid "Belize"
+msgstr ""
+
+#: public/partials/functions.php:94
+msgid "Benin"
+msgstr ""
+
+#: public/partials/functions.php:95
+msgid "Bermuda"
+msgstr ""
+
+#: public/partials/functions.php:96
+msgid "Bhutan"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:118
+msgid "Billed to"
+msgstr ""
+
+#: public/partials/functions.php:97
+msgid "Bolivia"
+msgstr ""
+
+#: public/partials/functions.php:98
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: public/partials/functions.php:99
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: public/partials/functions.php:100
+msgid "Botswana"
+msgstr ""
+
+#: public/partials/functions.php:101
+msgid "Bouvet Island"
+msgstr ""
+
+#: public/partials/functions.php:102
+msgid "Brazil"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:201
+msgid "Brief introduction"
+msgstr ""
+
+#: public/partials/functions.php:103
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: public/partials/functions.php:104
+msgid "British Virgin Islands"
+msgstr ""
+
+#: public/partials/functions.php:105
+msgid "Brunei"
+msgstr ""
+
+#: public/partials/functions.php:106
+msgid "Bulgaria"
+msgstr ""
+
+#: public/partials/functions.php:107
+msgid "Burkina Faso"
+msgstr ""
+
+#: public/partials/functions.php:108
+msgid "Burundi"
+msgstr ""
+
+#: widgets/class-buy-sell-footer.php:106
+msgid "Button link"
+msgstr ""
+
+#: widgets/class-buy-sell-footer.php:102
+msgid "Button text"
+msgstr ""
+
+#: templates/single-articles/article-buy-content.php:44
+msgid "Buy now"
+msgstr ""
+
+#: templates/article-search/search-category.php:21
+msgid "By category"
+msgstr ""
+
+#: public/partials/functions.php:109
+msgid "Cambodia"
+msgstr ""
+
+#: public/partials/functions.php:110
+msgid "Cameroon"
+msgstr ""
+
+#: public/partials/functions.php:111
+msgid "Canada"
+msgstr ""
+
+#: public/partials/functions.php:112
+msgid "Cape Verde"
+msgstr ""
+
+#: admin/cpt/articles.php:91
+msgctxt "Categories for articles"
+msgid "Add new category"
+msgstr ""
+
+#: admin/cpt/articles.php:86
+msgctxt "Categories for articles"
+msgid "All categories"
+msgstr ""
+
+#: admin/cpt/articles.php:93
+msgctxt "Categories for articles"
+msgid "Article categories"
+msgstr ""
+
+#: admin/cpt/articles.php:83 admin/cpt/articles.php:84
+msgctxt "Categories for articles"
+msgid "Article category"
+msgstr ""
+
+#: admin/cpt/articles.php:89
+msgctxt "Categories for articles"
+msgid "Edit category"
+msgstr ""
+
+#: admin/cpt/articles.php:92
+msgctxt "Categories for articles"
+msgid "New category Name"
+msgstr ""
+
+#: admin/cpt/articles.php:87
+msgctxt "Categories for articles"
+msgid "Parent category"
+msgstr ""
+
+#: admin/cpt/articles.php:88
+msgctxt "Categories for articles"
+msgid "Parent category:"
+msgstr ""
+
+#: admin/cpt/articles.php:85
+msgctxt "Categories for articles"
+msgid "Search category"
+msgstr ""
+
+#: admin/cpt/articles.php:90
+msgctxt "Categories for articles"
+msgid "Update category"
+msgstr ""
+
+#: admin/cpt/editions.php:92
+msgctxt "Categories for editions"
+msgid "Add new category"
+msgstr ""
+
+#: admin/cpt/editions.php:87
+msgctxt "Categories for editions"
+msgid "All categories"
+msgstr ""
+
+#: admin/cpt/editions.php:90
+msgctxt "Categories for editions"
+msgid "Edit category"
+msgstr ""
+
+#: admin/cpt/editions.php:94
+msgctxt "Categories for editions"
+msgid "Edition categories"
+msgstr ""
+
+#: admin/cpt/editions.php:84 admin/cpt/editions.php:85
+msgctxt "Categories for editions"
+msgid "Edition category"
+msgstr ""
+
+#: admin/cpt/editions.php:93
+msgctxt "Categories for editions"
+msgid "New category Name"
+msgstr ""
+
+#: admin/cpt/editions.php:88
+msgctxt "Categories for editions"
+msgid "Parent category"
+msgstr ""
+
+#: admin/cpt/editions.php:89
+msgctxt "Categories for editions"
+msgid "Parent category:"
+msgstr ""
+
+#: admin/cpt/editions.php:86
+msgctxt "Categories for editions"
+msgid "Search category"
+msgstr ""
+
+#: admin/cpt/editions.php:91
+msgctxt "Categories for editions"
+msgid "Update category"
+msgstr ""
+
+#: public/partials/functions.php:113
+msgid "Cayman Islands"
+msgstr ""
+
+#: public/partials/functions.php:114
+msgid "Central African Republic"
+msgstr ""
+
+#: public/partials/functions.php:115
+msgid "Chad"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:127
+msgid "Change password"
+msgstr ""
+
+#: public/partials/functions.php:116
+msgid "Chile"
+msgstr ""
+
+#: public/partials/functions.php:117
+msgid "China"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:78
+msgid "Choose country"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:108
+msgid "Choose logo"
+msgstr ""
+
+#: templates/user-type-js-templates.php:16 public/partials/ajax-hooks.php:1480
+msgid "Choose user type"
+msgstr ""
+
+#: public/partials/functions.php:118
+msgid "Christmas Island"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:243
+#: templates/dashboard/editor/manage-editions.php:70
+#: templates/dashboard/editor/manage-editions.php:241
+msgid "click here"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:256
+msgid "click here "
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:395
+msgid ""
+"Click on the link below to reset your password:<br />{{reset_link}}<br />"
+"Please be advised, If you don’t want to reset your password then please "
+"ignore this email and nothing will happen to your current password.<br />"
+msgstr ""
+
+#: templates/dashboard/profile-avatar-popup.php:24
+msgid "Click “Save” to update profile photo"
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:76
+#: templates/dashboard/user-invoices.php:93
+msgid "Client name"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:100
+msgid "Close"
+msgstr ""
+
+#: public/partials/functions.php:119
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: public/partials/functions.php:120
+msgid "Colombia"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1336
+msgid "Comment for further review"
+msgstr ""
+
+#: public/partials/functions.php:121
+msgid "Comoros"
+msgstr ""
+
+#: public/partials/functions.php:122
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: public/partials/functions.php:123
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: helpers/templates/register.php:34
+msgid "Congratulation You have successfully signed up at \"{{sitename}}."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:259 public/partials/ajax-hooks.php:1532
+msgid "Congratulation Your account has been created successfully!"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:834
+msgid "Congratulation your article has been deleted!"
+msgstr ""
+
+#: helpers/templates/author-emails.php:34
+#: admin/plugin-settings/settings/email-settings.php:719
+msgid "Congratulation your article has been submitted successfully!"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1677 public/partials/ajax-hooks.php:1839
+msgid "Congratulation your review has been submited successfully!"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2117
+msgid "Congratulation! article download info has been updated.!"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:621
+msgid "Congratulation! Article has been posted."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:661
+msgid "Congratulation! article has been updated."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1101 public/partials/ajax-hooks.php:1201
+msgid "Congratulation! Edition info has been updated.!"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1002
+msgid "Congratulation! New Edition has been posted."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1961 public/partials/ajax-hooks.php:2181
+msgid "Congratulation! reviewers assigned to this article"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:517
+msgid "Congratulation! your password has been changed."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:272
+msgid ""
+"Congratulations! <br /> You have successfully signed up at “{{sitename}}”."
+msgstr ""
+
+#: helpers/templates/register.php:164
+#: admin/plugin-settings/settings/email-settings.php:584
+msgid "Congratulations! <br/> Your account has been approved by the admin."
+msgstr ""
+
+#: helpers/templates/author-emails.php:120
+msgid "Congratulations! Your article “{{article_names}}” has been published"
+msgstr ""
+
+#: helpers/templates/author-emails.php:74
+#: admin/plugin-settings/settings/email-settings.php:745
+msgid "Congratulations! Your article “{{article_name}}” has been approved"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:809
+msgid "Congratulations! Your edition “{{edition_name}}” has been published"
+msgstr ""
+
+#: helpers/templates/author-emails.php:76
+#: admin/plugin-settings/settings/email-settings.php:783
+msgid ""
+"Congratulations!<br/> Your article with the name “{{article_name}}” has been "
+"approved. You can view your article here <br /> {{article_link}}"
+msgstr ""
+
+#: helpers/templates/author-emails.php:122
+#: admin/plugin-settings/settings/email-settings.php:847
+msgid ""
+"Congratulations!<br/>Your article with the name “{{article_names}}” has been "
+"published in the edition “{{edition_name}}”. You can view the edition here "
+"<br/>{{edition_link}}"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:93
+msgid "Consectetur adipisicing elitame sedo amodate tempor"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:76
+msgid "Content"
+msgstr ""
+
+#: public/partials/functions.php:124
+msgid "Cook Islands"
+msgstr ""
+
+#: helpers/email-helper.php:128
+msgid "Copyright"
+msgstr ""
+
+#: public/partials/functions.php:125
+msgid "Costa Rica"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:75
+msgid "Country"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:354
+#: templates/dashboard/editor/manage-editions.php:309
+msgid "Cover image"
+msgstr ""
+
+#: public/partials/functions.php:126
+msgid "Croatia"
+msgstr ""
+
+#: admin/plugin-settings/settings/css-js-settings.php:14
+msgid "CSS/JS scripts"
+msgstr ""
+
+#: public/partials/functions.php:127
+msgid "Cuba"
+msgstr ""
+
+#: public/partials/functions.php:128
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: admin/plugin-settings/settings/css-js-settings.php:23
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/plugin-settings/settings/css-js-settings.php:33
+msgid "Custom JS"
+msgstr ""
+
+#: templates/dashboard/editor/approved-article-listings.php:122
+msgid "Custom Price"
+msgstr ""
+
+#: public/partials/functions.php:129
+msgid "Cyprus"
+msgstr ""
+
+#: public/partials/functions.php:130
+msgid "Czech Republic"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:64
+#: public/partials/template-loader.php:42
+#: templates/dashboard/menus/author/dashboard-menus.php:48
+#: templates/dashboard/menus/editor/dashboard-menus.php:56
+#: templates/dashboard/menus/reviewer/dashboard-menus.php:52
+#: templates/dashboard/menus/subscriber/dashboard-menus.php:46
+msgid "Dashboard"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:124
+msgid "Date"
+msgstr ""
+
+#: admin/plugin-settings/settings/default-images-setting.php:14
+msgid "Default images"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:43
+msgid "Default user registration"
+msgstr ""
+
+#: public/partials/functions.php:131
+msgid "Denmark"
+msgstr ""
+
+#: widgets/class-buy-sell-footer.php:98
+#: templates/dashboard/invoice-detail.php:151
+#: templates/dashboard/personal-details.php:106
+msgid "Description"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1280
+msgid "Description is required."
+msgstr ""
+
+#: public/partials/functions.php:132
+msgid "Djibouti"
+msgstr ""
+
+#: templates/search-articles.php:127
+msgid "Do You Want To Upload Your Article?"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:244
+#: templates/dashboard/author/add-article.php:257
+#: templates/dashboard/editor/manage-editions.php:71
+#: templates/dashboard/editor/manage-editions.php:242
+msgid ""
+"Document file size does not exceed 5MB and you can upload any document file "
+"format for users to download"
+msgstr ""
+
+#: public/partials/functions.php:133
+msgid "Dominica"
+msgstr ""
+
+#: public/partials/functions.php:134
+msgid "Dominican Republic"
+msgstr ""
+
+#: templates/article-loop/article-documents.php:28
+msgid "Download"
+msgstr ""
+
+#: templates/article-loop/article-documents.php:35
+msgid "Download all"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:83
+#: templates/single-articles/article-buy-content.php:37
+#: templates/single-articles/article-buy-content.php:40
+#: templates/dashboard/author/add-article.php:87
+#: templates/dashboard/menus/subscriber/dashboard-menus.php:54
+msgid "Download article"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2293 public/partials/ajax-hooks.php:2394
+msgid "Download files"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:243
+#: templates/dashboard/author/add-article.php:256
+#: templates/dashboard/editor/manage-editions.php:70
+#: templates/dashboard/editor/manage-editions.php:241
+msgid "Drag or "
+msgstr ""
+
+#: public/partials/functions.php:135
+msgid "Ecuador"
+msgstr ""
+
+#: admin/cpt/articles.php:46 templates/article-loop/article-quick-action.php:39
+#: templates/dashboard/author/add-article.php:23
+msgid "Edit article"
+msgstr ""
+
+#: admin/cpt/editions.php:46
+msgid "Edit edition"
+msgstr ""
+
+#: templates/dashboard/editor/approved-article-listings.php:104
+msgid "Edit/update articel price"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:226
+msgid "Edit/update edition"
+msgstr ""
+
+#: admin/cpt/editions.php:39 admin/cpt/editions.php:41
+msgid "Edition"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:968 public/partials/ajax-hooks.php:1062
+msgid "Edition date is required."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1214
+msgid "Edition has been removed.!"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:81
+#: templates/dashboard/editor/manage-editions.php:252
+msgid "Edition launch date"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:967 public/partials/ajax-hooks.php:1061
+msgid "Edition name is required."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1063
+msgid "Edition price is required."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:801
+msgid "Edition published"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:77
+#: templates/dashboard/editor/manage-editions.php:248
+msgid "Edition title"
+msgstr ""
+
+#: admin/cpt/editions.php:38 admin/cpt/editions.php:40
+msgid "Editions"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:44
+msgid "Editions search page"
+msgstr ""
+
+#: templates/user-type-js-templates.php:30 admin/plugin-settings/init.php:66
+#: admin/plugin-settings/settings/email-settings.php:997
+#: admin/plugin-settings/settings/general-settings.php:49
+msgid "Editor"
+msgstr ""
+
+#: public/partials/functions.php:136
+msgid "Egypt"
+msgstr ""
+
+#: public/partials/functions.php:137
+msgid "El Salvador"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:413
+msgid "Email address is required"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:406
+msgid "Email Content"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:142
+#: admin/plugin-settings/settings/email-settings.php:211
+#: admin/plugin-settings/settings/email-settings.php:283
+#: admin/plugin-settings/settings/email-settings.php:346
+#: admin/plugin-settings/settings/email-settings.php:470
+#: admin/plugin-settings/settings/email-settings.php:533
+#: admin/plugin-settings/settings/email-settings.php:595
+#: admin/plugin-settings/settings/email-settings.php:658
+#: admin/plugin-settings/settings/email-settings.php:730
+#: admin/plugin-settings/settings/email-settings.php:794
+#: admin/plugin-settings/settings/email-settings.php:858
+#: admin/plugin-settings/settings/email-settings.php:923
+#: admin/plugin-settings/settings/email-settings.php:988
+#: admin/plugin-settings/settings/email-settings.php:1064
+#: admin/plugin-settings/settings/email-settings.php:1128
+#: admin/plugin-settings/settings/email-settings.php:1191
+#: admin/plugin-settings/settings/email-settings.php:1254
+#: admin/plugin-settings/settings/email-settings.php:1329
+#: admin/plugin-settings/settings/email-settings.php:1392
+msgid "Email Contents"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:136
+msgid "Email field is required."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:25
+msgid "Email General Settings"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:326
+msgid "Email is required"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:33
+msgid "Email Logo"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:230
+msgid "Email on user registration with auto approve"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:290
+msgid "Email on user registration with verification link"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:46
+msgid "Email sender email"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:39
+msgid "Email sender name"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:59
+msgid "Email Sender Signature "
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:115
+#: admin/plugin-settings/settings/email-settings.php:184
+#: admin/plugin-settings/settings/email-settings.php:256
+#: admin/plugin-settings/settings/email-settings.php:318
+#: admin/plugin-settings/settings/email-settings.php:379
+#: admin/plugin-settings/settings/email-settings.php:443
+#: admin/plugin-settings/settings/email-settings.php:506
+#: admin/plugin-settings/settings/email-settings.php:568
+#: admin/plugin-settings/settings/email-settings.php:631
+#: admin/plugin-settings/settings/email-settings.php:703
+#: admin/plugin-settings/settings/email-settings.php:767
+#: admin/plugin-settings/settings/email-settings.php:831
+#: admin/plugin-settings/settings/email-settings.php:896
+#: admin/plugin-settings/settings/email-settings.php:961
+#: admin/plugin-settings/settings/email-settings.php:1037
+#: admin/plugin-settings/settings/email-settings.php:1101
+#: admin/plugin-settings/settings/email-settings.php:1164
+#: admin/plugin-settings/settings/email-settings.php:1227
+#: admin/plugin-settings/settings/email-settings.php:1302
+#: admin/plugin-settings/settings/email-settings.php:1365
+msgid "Email setting variables"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:16
+msgid "Email settings"
+msgstr ""
+
+#: helpers/email-helper.php:70
+msgid "email-header"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:228
+#: templates/dashboard/author/add-article.php:230
+msgid "Enter article excerpts"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:104
+msgid "Enter articles title"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:160
+#: templates/dashboard/author/add-article.php:162
+#: templates/dashboard/author/add-article.php:188
+#: templates/dashboard/author/add-article.php:190
+#: templates/dashboard/author/add-article.php:343
+#: templates/dashboard/author/add-article.php:345
+msgid "Enter author email"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:148
+#: templates/dashboard/author/add-article.php:150
+#: templates/dashboard/author/add-article.php:178
+#: templates/dashboard/author/add-article.php:180
+#: templates/dashboard/author/add-article.php:334
+#: templates/dashboard/author/add-article.php:336
+msgid "Enter author name"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:242
+#: templates/dashboard/personal-details.php:108
+#: templates/dashboard/personal-details.php:110
+msgid "Enter description"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:78
+#: templates/dashboard/editor/manage-editions.php:249
+msgid "Enter edition title here"
+msgstr ""
+
+#: templates/registration.php:101
+msgid "Enter password"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:295
+#: templates/dashboard/author/add-article.php:297
+msgid "Enter revision comment"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:92
+msgid "Enter your address"
+msgstr ""
+
+#: templates/registration.php:92
+msgid "Enter your email address"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:99
+#: templates/dashboard/personal-details.php:101
+msgid "Enter zipcode"
+msgstr ""
+
+#: public/partials/functions.php:138
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: public/partials/functions.php:139
+msgid "Eritrea"
+msgstr ""
+
+#: includes/class-file-permission.php:216
+#: public/class-peer-review-system-public.php:133
+msgid "Error"
+msgstr ""
+
+#: public/partials/functions.php:140
+msgid "Estonia"
+msgstr ""
+
+#: public/partials/functions.php:141
+msgid "Ethiopia"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2286 public/partials/ajax-hooks.php:2355
+#: public/partials/ajax-hooks.php:2387 public/partials/ajax-hooks.php:2438
+#: public/partials/woo-hooks.php:331 public/partials/woo-hooks.php:338
+msgid "Failed!"
+msgstr ""
+
+#: public/partials/functions.php:142
+msgid "Falkland Islands"
+msgstr ""
+
+#: public/partials/functions.php:143
+msgid "Faroe Islands"
+msgstr ""
+
+#: public/partials/functions.php:144
+msgid "Fiji"
+msgstr ""
+
+#: includes/class-file-permission.php:209
+msgid "File uploaded"
+msgstr ""
+
+#: public/partials/functions.php:145
+msgid "Finland"
+msgstr ""
+
+#: templates/registration.php:74 templates/dashboard/personal-details.php:45
+msgid "First name"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:130
+msgid "First Name is required"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:134
+msgid "First name is required"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1278
+msgid "First name is required."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:53
+msgid "Footer copyright text"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:90
+msgid "Forgot password form"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:84
+msgid "Form type"
+msgstr ""
+
+#: public/partials/functions.php:146
+msgid "France"
+msgstr ""
+
+#: templates/dashboard/editor/approved-article-listings.php:114
+msgid "Free download"
+msgstr ""
+
+#: public/partials/functions.php:147
+msgid "French Guiana"
+msgstr ""
+
+#: public/partials/functions.php:148
+msgid "French Polynesia"
+msgstr ""
+
+#: public/partials/functions.php:149
+msgid "French Southern Territories"
+msgstr ""
+
+#: helpers/templates/reviewer-emails.php:75
+#: admin/plugin-settings/settings/email-settings.php:1344
+msgid "Further review required"
+msgstr ""
+
+#: public/partials/functions.php:150
+msgid "Gabon"
+msgstr ""
+
+#: public/partials/functions.php:151
+msgid "Gambia"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:17
+msgid "General settings"
+msgstr ""
+
+#: public/partials/functions.php:152
+msgid "Georgia"
+msgstr ""
+
+#: public/partials/functions.php:153
+msgid "Germany"
+msgstr ""
+
+#: public/partials/hooks.php:233 public/partials/hooks.php:298
+msgid "Get started"
+msgstr ""
+
+#: public/partials/functions.php:154
+msgid "Ghana"
+msgstr ""
+
+#: public/partials/functions.php:155
+msgid "Gibraltar"
+msgstr ""
+
+#: templates/forgot.php:163 templates/login.php:99
+#: templates/registration.php:136
+msgid "Go back"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:413
+msgid "Google registration email"
+msgstr ""
+
+#: public/partials/functions.php:156
+msgid "Greece"
+msgstr ""
+
+#: public/partials/functions.php:157
+msgid "Greenland"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:123
+#: admin/plugin-settings/settings/email-settings.php:192
+#: admin/plugin-settings/settings/email-settings.php:264
+#: admin/plugin-settings/settings/email-settings.php:326
+#: admin/plugin-settings/settings/email-settings.php:387
+#: admin/plugin-settings/settings/email-settings.php:451
+#: admin/plugin-settings/settings/email-settings.php:514
+#: admin/plugin-settings/settings/email-settings.php:576
+#: admin/plugin-settings/settings/email-settings.php:639
+#: admin/plugin-settings/settings/email-settings.php:711
+#: admin/plugin-settings/settings/email-settings.php:775
+#: admin/plugin-settings/settings/email-settings.php:839
+#: admin/plugin-settings/settings/email-settings.php:904
+#: admin/plugin-settings/settings/email-settings.php:969
+#: admin/plugin-settings/settings/email-settings.php:1045
+#: admin/plugin-settings/settings/email-settings.php:1109
+#: admin/plugin-settings/settings/email-settings.php:1172
+#: admin/plugin-settings/settings/email-settings.php:1235
+#: admin/plugin-settings/settings/email-settings.php:1310
+#: admin/plugin-settings/settings/email-settings.php:1373
+msgid "Greeting"
+msgstr ""
+
+#: public/partials/functions.php:158
+msgid "Grenada"
+msgstr ""
+
+#. Base ID
+#: widgets/class-growing-expanding.php:26
+msgid "Growning & Expaning | Peer Review System"
+msgstr ""
+
+#: public/partials/functions.php:159
+msgid "Guadeloupe"
+msgstr ""
+
+#: public/partials/functions.php:160
+msgid "Guatemala"
+msgstr ""
+
+#: public/partials/functions.php:161
+msgid "Guernsey"
+msgstr ""
+
+#: public/partials/functions.php:162
+msgid "Guinea"
+msgstr ""
+
+#: public/partials/functions.php:163
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: public/partials/functions.php:164
+msgid "Guyana"
+msgstr ""
+
+#: public/partials/functions.php:165
+msgid "Haiti"
+msgstr ""
+
+#: admin/plugin-settings/settings/header-settings.php:12
+msgid "Header settings"
+msgstr ""
+
+#: public/partials/functions.php:166
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: helpers/email-helper.php:214
+msgid "Hello {{greet_keyword_key}},"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:266
+#: admin/plugin-settings/settings/email-settings.php:328
+#: admin/plugin-settings/settings/email-settings.php:389
+#: admin/plugin-settings/settings/email-settings.php:453
+#: admin/plugin-settings/settings/email-settings.php:516
+#: admin/plugin-settings/settings/email-settings.php:578
+#: admin/plugin-settings/settings/email-settings.php:641
+msgid "Hello {{name}},"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:713
+#: admin/plugin-settings/settings/email-settings.php:777
+#: admin/plugin-settings/settings/email-settings.php:841
+#: admin/plugin-settings/settings/email-settings.php:906
+#: admin/plugin-settings/settings/email-settings.php:971
+#: admin/plugin-settings/settings/email-settings.php:1047
+#: admin/plugin-settings/settings/email-settings.php:1111
+#: admin/plugin-settings/settings/email-settings.php:1174
+#: admin/plugin-settings/settings/email-settings.php:1237
+#: admin/plugin-settings/settings/email-settings.php:1312
+#: admin/plugin-settings/settings/email-settings.php:1375
+msgid "Hello {{user_name}},"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:125
+#: admin/plugin-settings/settings/email-settings.php:194
+msgid "Hello,"
+msgstr ""
+
+#: templates/article-loop/article-assign-reviewer.php:51
+msgid "Hit the “Assign now” button to send invitation to the reviewers"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:250
+#: templates/article-loop/article-revision-reply.php:62
+msgid "Hit the “Submit now” button to add your reply"
+msgstr ""
+
+#: public/partials/functions.php:167
+msgid "Honduras"
+msgstr ""
+
+#: public/partials/functions.php:168
+msgid "Hong Kong"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/amentotech/portfolio"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:144
+msgid "https://example.com"
+msgstr ""
+
+#: public/partials/functions.php:169
+msgid "Hungary"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:305
+msgid "I accept all the submiting article’s"
+msgstr ""
+
+#: templates/registration.php:125
+msgid "I have read and agree to all"
+msgstr ""
+
+#: public/partials/functions.php:170
+msgid "Iceland"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:240
+#: templates/dashboard/author/add-article.php:318
+#: templates/dashboard/editor/manage-editions.php:67
+#: templates/dashboard/editor/manage-editions.php:201
+#: templates/dashboard/editor/manage-editions.php:215
+#: templates/dashboard/editor/manage-editions.php:238
+msgid "Image"
+msgstr ""
+
+#: admin/plugin-settings/settings/default-images-setting.php:35
+msgid "Image cropped file height"
+msgstr ""
+
+#: admin/plugin-settings/settings/default-images-setting.php:29
+msgid "Image cropped file width"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:61
+msgid "Image is not in correct format"
+msgstr ""
+
+#: templates/forgot.php:34 templates/forgot.php:39
+msgid "Images"
+msgstr ""
+
+#: public/partials/hooks.php:200
+msgid "Import author/editor/reviewer"
+msgstr ""
+
+#: public/partials/hooks.php:207
+msgid "Import dummy"
+msgstr ""
+
+#: public/partials/hooks.php:23 public/partials/hooks.php:24
+msgid "Import user"
+msgstr ""
+
+#: public/partials/hooks.php:203
+msgid "Import Users"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:94 public/partials/hooks.php:205
+msgid "Import users"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:167
+msgid "Inbox"
+msgstr ""
+
+#: public/partials/functions.php:171
+msgid "India"
+msgstr ""
+
+#: public/partials/functions.php:172
+msgid "Indonesia"
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:94
+msgid "Invoice #"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:93
+msgid "Invoice # "
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:77
+msgid "Invoice date"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:81
+msgid "Invoice preview"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:146
+msgid "Invoice summary"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:139
+msgid "Invoice total amount"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:142
+msgid "Invoices"
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:54
+msgid "Invoices & bills"
+msgstr ""
+
+#: public/partials/functions.php:173
+msgid "Iran"
+msgstr ""
+
+#: public/partials/functions.php:174
+msgid "Iraq"
+msgstr ""
+
+#: public/partials/functions.php:176
+msgid "Isle of Man"
+msgstr ""
+
+#: public/partials/functions.php:177
+msgid "Israel"
+msgstr ""
+
+#: public/partials/functions.php:178
+msgid "Italy"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:152
+msgid "Item price"
+msgstr ""
+
+#: public/partials/functions.php:179
+msgid "Ivory Coast"
+msgstr ""
+
+#: public/partials/functions.php:180
+msgid "Jamaica"
+msgstr ""
+
+#: public/partials/functions.php:181
+msgid "Japan"
+msgstr ""
+
+#: public/partials/functions.php:182
+msgid "Jersey"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:48
+msgid "johndoe@example.com"
+msgstr ""
+
+#: templates/registration.php:107
+msgid "Join as"
+msgstr ""
+
+#: templates/registration.php:119
+msgid "Join now"
+msgstr ""
+
+#: templates/forgot.php:83 templates/forgot.php:155 templates/login.php:88
+msgid "Join us today"
+msgstr ""
+
+#: public/partials/functions.php:183
+msgid "Jordan"
+msgstr ""
+
+#. Name of the plugin
+msgid "Journal management and Peer review system"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Journal management and Peer review system is a research related plugin where "
+"author can post their articles and editors can approve or reject the "
+"articles. It has strong module like articles, editions and reviewers"
+msgstr ""
+
+#: public/partials/functions.php:184
+msgid "Kazakhstan"
+msgstr ""
+
+#: public/partials/functions.php:185
+msgid "Kenya"
+msgstr ""
+
+#: public/partials/functions.php:186
+msgid "Kiribati"
+msgstr ""
+
+#: public/partials/functions.php:187
+msgid "Kuwait"
+msgstr ""
+
+#: public/partials/functions.php:188
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: public/partials/functions.php:189
+msgid "Laos"
+msgstr ""
+
+#: templates/registration.php:83 templates/dashboard/personal-details.php:55
+msgid "Last name"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:131
+msgid "Last Name is required"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:135 public/partials/ajax-hooks.php:1279
+msgid "Last name is required."
+msgstr ""
+
+#: public/partials/functions.php:190
+msgid "Latvia"
+msgstr ""
+
+#: public/partials/functions.php:191
+msgid "Lebanon"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:127
+msgid "Left bottom tagline"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:118
+msgid "Left bottom text"
+msgstr ""
+
+#: public/partials/functions.php:192
+msgid "Lesotho"
+msgstr ""
+
+#: public/partials/functions.php:193
+msgid "Liberia"
+msgstr ""
+
+#: public/partials/functions.php:194
+msgid "Libya"
+msgstr ""
+
+#: public/partials/functions.php:195
+msgid "Liechtenstein"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:86
+msgid "Like what you see?"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:142
+msgid "Link"
+msgstr ""
+
+#: public/partials/functions.php:196
+msgid "Lithuania"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1471
+msgid "Logged in!"
+msgstr ""
+
+#: helpers/templates/register.php:255
+msgid "Login"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:89
+msgid "Login form"
+msgstr ""
+
+#: templates/forgot.php:152 templates/login.php:83
+#: templates/registration.php:129
+msgid "Login now"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:51
+msgid "Login page"
+msgstr ""
+
+#: admin/plugin-settings/settings/header-settings.php:21
+msgid "Logo"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:74
+#: templates/dashboard/menus/author/dashboard-menus.php:108
+#: templates/dashboard/menus/editor/dashboard-menus.php:126
+#: templates/dashboard/menus/reviewer/dashboard-menus.php:69
+#: templates/dashboard/menus/subscriber/dashboard-menus.php:63
+msgid "Logout"
+msgstr ""
+
+#: templates/login.php:91 templates/registration.php:130
+msgid "Lost password?"
+msgstr ""
+
+#: public/partials/functions.php:197
+msgid "Luxembourg"
+msgstr ""
+
+#: public/partials/functions.php:198
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: public/partials/functions.php:199
+msgid "Macedonia"
+msgstr ""
+
+#: public/partials/functions.php:200
+msgid "Madagascar"
+msgstr ""
+
+#: admin/class-admin-menus-options.php:66
+msgid "Main header menu"
+msgstr ""
+
+#: admin/class-admin-menus-options.php:62
+msgid "Main menu"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:156
+#: templates/article-loop/author-article-feedback.php:115
+#: templates/dashboard/reviewer/article-status-search.php:25
+msgid "Major revision"
+msgstr ""
+
+#: templates/dashboard/editor/major-revision-article-listings.php:75
+msgid "Major revision articles"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:107 public/partials/hooks.php:146
+#: templates/dashboard/menus/author/dashboard-menus.php:90
+#: templates/dashboard/menus/editor/dashboard-menus.php:98
+msgid "Major revisions"
+msgstr ""
+
+#: public/partials/functions.php:201
+msgid "Malawi"
+msgstr ""
+
+#: public/partials/functions.php:202
+msgid "Malaysia"
+msgstr ""
+
+#: public/partials/functions.php:203
+msgid "Maldives"
+msgstr ""
+
+#: public/partials/functions.php:204
+msgid "Mali"
+msgstr ""
+
+#: public/partials/functions.php:205
+msgid "Malta"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:101
+#: templates/dashboard/menus/editor/dashboard-menus.php:118
+msgid "Manage editions"
+msgstr ""
+
+#: public/partials/functions.php:206
+msgid "Marshall Islands"
+msgstr ""
+
+#: public/partials/functions.php:207
+msgid "Martinique"
+msgstr ""
+
+#: public/partials/functions.php:208
+msgid "Mauritania"
+msgstr ""
+
+#: public/partials/functions.php:209
+msgid "Mauritius"
+msgstr ""
+
+#: public/partials/functions.php:210
+msgid "Mayotte"
+msgstr ""
+
+#: admin/class-admin-menus-options.php:60
+msgid "Menu Settings"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:293
+msgid "Message to reviewer"
+msgstr ""
+
+#: public/partials/functions.php:211
+msgid "Mexico"
+msgstr ""
+
+#: public/partials/functions.php:212
+msgid "Micronesia"
+msgstr ""
+
+#: public/partials/hooks.php:145
+#: templates/article-loop/article-feedback.php:153
+#: templates/article-loop/author-article-feedback.php:111
+#: templates/dashboard/reviewer/article-status-search.php:24
+msgid "Minor revision"
+msgstr ""
+
+#: templates/dashboard/author/minor-revision-article-listings.php:78
+#: templates/dashboard/editor/minor-revision-article-listings.php:75
+#: templates/dashboard/reviewer/minor-revision-article-listings.php:86
+msgid "Minor revision articles"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:97
+#: templates/dashboard/menus/author/dashboard-menus.php:81
+#: templates/dashboard/menus/editor/dashboard-menus.php:87
+msgid "Minor revisions"
+msgstr ""
+
+#: public/partials/functions.php:213
+msgid "Moldova"
+msgstr ""
+
+#: public/partials/functions.php:214
+msgid "Monaco"
+msgstr ""
+
+#: public/partials/functions.php:215
+msgid "Mongolia"
+msgstr ""
+
+#: public/partials/functions.php:216
+msgid "Montenegro"
+msgstr ""
+
+#: public/partials/functions.php:217
+msgid "Montserrat"
+msgstr ""
+
+#: public/partials/functions.php:218
+msgid "Morocco"
+msgstr ""
+
+#: public/partials/functions.php:219
+msgid "Mozambique"
+msgstr ""
+
+#: public/partials/functions.php:220
+msgid "Myanmar"
+msgstr ""
+
+#: public/partials/functions.php:221
+msgid "Namibia"
+msgstr ""
+
+#: public/partials/functions.php:222
+msgid "Nauru"
+msgstr ""
+
+#: public/partials/functions.php:223
+msgid "Nepal"
+msgstr ""
+
+#: public/partials/functions.php:224
+msgid "Netherlands"
+msgstr ""
+
+#: public/partials/functions.php:225
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: templates/dashboard/author/articles-review-listings.php:86
+#: templates/dashboard/author/articles.php:70
+msgid "New"
+msgstr ""
+
+#: admin/cpt/articles.php:45
+msgid "New article"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1135
+msgid "New Article Posted"
+msgstr ""
+
+#: public/partials/functions.php:226
+msgid "New Caledonia"
+msgstr ""
+
+#: admin/cpt/editions.php:45
+msgid "New edition"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:145
+#: templates/dashboard/personal-details.php:147
+#: templates/dashboard/personal-details.php:149
+msgid "New password"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1363
+msgid "New password is required."
+msgstr ""
+
+#: helpers/templates/register.php:238
+msgid "New registration approval request at {{sitename}}"
+msgstr ""
+
+#: helpers/templates/register.php:76
+msgid "New registration at {{sitename}}"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:118 public/partials/ajax-hooks.php:1424
+msgid "New Registration is disabled by admin!"
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:62
+msgid "New to old"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:86
+msgid "New user account approval request at {{sitename}}"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:156
+msgid "New user registration at {{sitename}}"
+msgstr ""
+
+#: public/partials/functions.php:227
+msgid "New Zealand"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:204
+#: templates/article-loop/author-article-feedback.php:163
+msgid "Next"
+msgstr ""
+
+#: public/partials/functions.php:228
+msgid "Nicaragua"
+msgstr ""
+
+#: public/partials/functions.php:229
+msgid "Niger"
+msgstr ""
+
+#: public/partials/functions.php:230
+msgid "Nigeria"
+msgstr ""
+
+#: public/partials/functions.php:231
+msgid "Niue"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:101
+msgid "No"
+msgstr ""
+
+#: templates/article-loop/author-article-feedback.php:172
+msgid "No Comments found!"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:213
+msgid "No comments found!"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2264
+msgid "No data available"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1582 public/partials/ajax-hooks.php:1728
+msgid "No more revision accepted!"
+msgstr ""
+
+#: public/partials/functions.php:232
+msgid "Norfolk Island"
+msgstr ""
+
+#: public/partials/functions.php:233
+msgid "North Korea"
+msgstr ""
+
+#: public/partials/functions.php:234
+msgid "Norway"
+msgstr ""
+
+#: templates/article-search/article-notice.php:24
+msgid "Notice board"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:60 public/partials/ajax-hooks.php:88
+#: public/partials/ajax-hooks.php:93
+msgid "OH"
+msgstr ""
+
+#: templates/article-search/empty-articles-listing.php:26
+msgid "Oh snap!"
+msgstr ""
+
+#: templates/editions-search/empty-editions-listing.php:15
+msgid "Oh snap! there is no content to show."
+msgstr ""
+
+#: templates/dashboard/personal-details.php:135
+#: templates/dashboard/personal-details.php:137
+#: templates/dashboard/personal-details.php:139
+msgid "Old password"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1399
+msgid "Old Password doesn't matched with the existing password"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1362
+msgid "Old password is required."
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:63
+msgid "Old to new"
+msgstr ""
+
+#: public/partials/functions.php:235
+msgid "Oman"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:26
+msgid "ON mean account auto approved!"
+msgstr ""
+
+#: public/partials/woo-hooks.php:278
+msgid "Oopps"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2323 public/partials/ajax-hooks.php:2426
+msgid "Oops"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:144
+#: admin/partials/peer-review-admin-display.php:143
+#: admin/partials/peer-review-admin-display.php:155
+#: admin/partials/peer-review-admin-display.php:164
+#: public/partials/ajax-hooks.php:21 public/partials/ajax-hooks.php:117
+#: public/partials/ajax-hooks.php:125 public/partials/ajax-hooks.php:144
+#: public/partials/ajax-hooks.php:155 public/partials/ajax-hooks.php:163
+#: public/partials/ajax-hooks.php:189 public/partials/ajax-hooks.php:320
+#: public/partials/ajax-hooks.php:333 public/partials/ajax-hooks.php:342
+#: public/partials/ajax-hooks.php:353 public/partials/ajax-hooks.php:397
+#: public/partials/ajax-hooks.php:412 public/partials/ajax-hooks.php:421
+#: public/partials/ajax-hooks.php:428 public/partials/ajax-hooks.php:495
+#: public/partials/ajax-hooks.php:506 public/partials/ajax-hooks.php:544
+#: public/partials/ajax-hooks.php:558 public/partials/ajax-hooks.php:591
+#: public/partials/ajax-hooks.php:598 public/partials/ajax-hooks.php:779
+#: public/partials/ajax-hooks.php:803 public/partials/ajax-hooks.php:817
+#: public/partials/ajax-hooks.php:828 public/partials/ajax-hooks.php:839
+#: public/partials/ajax-hooks.php:862 public/partials/ajax-hooks.php:876
+#: public/partials/ajax-hooks.php:888 public/partials/ajax-hooks.php:908
+#: public/partials/ajax-hooks.php:914 public/partials/ajax-hooks.php:938
+#: public/partials/ajax-hooks.php:952 public/partials/ajax-hooks.php:973
+#: public/partials/ajax-hooks.php:1006 public/partials/ajax-hooks.php:1030
+#: public/partials/ajax-hooks.php:1044 public/partials/ajax-hooks.php:1068
+#: public/partials/ajax-hooks.php:1105 public/partials/ajax-hooks.php:1129
+#: public/partials/ajax-hooks.php:1143 public/partials/ajax-hooks.php:1157
+#: public/partials/ajax-hooks.php:1205 public/partials/ajax-hooks.php:1218
+#: public/partials/ajax-hooks.php:1225 public/partials/ajax-hooks.php:1252
+#: public/partials/ajax-hooks.php:1261 public/partials/ajax-hooks.php:1284
+#: public/partials/ajax-hooks.php:1312 public/partials/ajax-hooks.php:1339
+#: public/partials/ajax-hooks.php:1348 public/partials/ajax-hooks.php:1368
+#: public/partials/ajax-hooks.php:1376 public/partials/ajax-hooks.php:1392
+#: public/partials/ajax-hooks.php:1398 public/partials/ajax-hooks.php:1423
+#: public/partials/ajax-hooks.php:1433 public/partials/ajax-hooks.php:1572
+#: public/partials/ajax-hooks.php:1581 public/partials/ajax-hooks.php:1589
+#: public/partials/ajax-hooks.php:1597 public/partials/ajax-hooks.php:1604
+#: public/partials/ajax-hooks.php:1681 public/partials/ajax-hooks.php:1717
+#: public/partials/ajax-hooks.php:1727 public/partials/ajax-hooks.php:1843
+#: public/partials/ajax-hooks.php:1870 public/partials/ajax-hooks.php:1914
+#: public/partials/ajax-hooks.php:1965 public/partials/ajax-hooks.php:1983
+#: public/partials/ajax-hooks.php:1996 public/partials/ajax-hooks.php:2040
+#: public/partials/ajax-hooks.php:2064 public/partials/ajax-hooks.php:2078
+#: public/partials/ajax-hooks.php:2102 public/partials/ajax-hooks.php:2121
+#: public/partials/ajax-hooks.php:2141 public/partials/ajax-hooks.php:2154
+#: public/partials/ajax-hooks.php:2185 public/partials/ajax-hooks.php:2203
+#: public/partials/ajax-hooks.php:2263
+msgid "Oops!"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:521
+msgid "Oops! Invalid request"
+msgstr ""
+
+#: templates/article-search/article-not-editable.php:15
+msgid "Oops! Nothing to show"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2219
+msgid "Oopssss!"
+msgstr ""
+
+#: public/partials/functions.php:236
+msgid "Pakistan"
+msgstr ""
+
+#: public/partials/functions.php:237
+msgid "Palestinian Territory"
+msgstr ""
+
+#: public/partials/functions.php:238
+msgid "Panama"
+msgstr ""
+
+#: public/partials/functions.php:239
+msgid "Papua New Guinea"
+msgstr ""
+
+#: public/partials/functions.php:240
+msgid "Paraguay"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:135
+msgid "Password and confirm password should be same"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1377
+msgid "Password does not match."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:137
+msgid "Password field is required."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1388
+msgid "Password has been updated."
+msgstr ""
+
+#: public/class-peer-review-system-public.php:132
+msgid "Password is required"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:327
+msgid "Password is required."
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:69
+msgid "Password must be 8 characters"
+msgstr ""
+
+#: public/partials/functions.php:428
+msgid "Password must be 8 characters<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:352
+msgid "Password Reset"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:360
+msgid "Password reset request"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:66
+msgid "Password strength"
+msgstr ""
+
+#: admin/plugin-settings/settings/css-js-settings.php:24
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: admin/plugin-settings/settings/css-js-settings.php:34
+msgid "Paste your JS code here."
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:107
+msgid "pdf,doc,docx"
+msgstr ""
+
+#: public/partials/hooks.php:16
+msgid "Peer Review System"
+msgstr ""
+
+#: elementor/config.php:58
+msgid "Peer Review System Elements"
+msgstr ""
+
+#: widgets/class-growing-expanding.php:29
+msgid "Peer review system info"
+msgstr ""
+
+#: templates/dashboard/article-status-search.php:20
+msgid "Pending"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:37
+msgid "Personal details"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1308
+msgid "Personal details updated successfully"
+msgstr ""
+
+#: public/partials/functions.php:241
+msgid "Peru"
+msgstr ""
+
+#: public/partials/functions.php:242
+msgid "Philippines"
+msgstr ""
+
+#: public/partials/functions.php:243
+msgid "Pitcairn"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:154 public/partials/ajax-hooks.php:343
+#: public/partials/ajax-hooks.php:420
+msgid "Please add a valid email address."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:92
+#: admin/plugin-settings/settings/email-settings.php:162
+msgid "Please add admin email."
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:94
+msgid "Please add article purchase section description."
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:87
+msgid "Please add article purchase section title."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:85
+#: admin/plugin-settings/settings/email-settings.php:155
+#: admin/plugin-settings/settings/email-settings.php:359
+#: admin/plugin-settings/settings/email-settings.php:420
+#: admin/plugin-settings/settings/email-settings.php:483
+#: admin/plugin-settings/settings/email-settings.php:546
+#: admin/plugin-settings/settings/email-settings.php:608
+#: admin/plugin-settings/settings/email-settings.php:682
+#: admin/plugin-settings/settings/email-settings.php:744
+#: admin/plugin-settings/settings/email-settings.php:808
+#: admin/plugin-settings/settings/email-settings.php:872
+#: admin/plugin-settings/settings/email-settings.php:937
+#: admin/plugin-settings/settings/email-settings.php:1014
+#: admin/plugin-settings/settings/email-settings.php:1078
+#: admin/plugin-settings/settings/email-settings.php:1142
+#: admin/plugin-settings/settings/email-settings.php:1205
+#: admin/plugin-settings/settings/email-settings.php:1280
+#: admin/plugin-settings/settings/email-settings.php:1343
+msgid "Please add email subject."
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:106
+msgid "Please add reason why you want to reject user uploaded documents?"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:237
+#: admin/plugin-settings/settings/email-settings.php:297
+msgid "Please add subject for user registration."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:265
+#: admin/plugin-settings/settings/email-settings.php:327
+msgid "Please add text for greeting."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:124
+#: admin/plugin-settings/settings/email-settings.php:193
+#: admin/plugin-settings/settings/email-settings.php:388
+#: admin/plugin-settings/settings/email-settings.php:452
+#: admin/plugin-settings/settings/email-settings.php:515
+#: admin/plugin-settings/settings/email-settings.php:577
+#: admin/plugin-settings/settings/email-settings.php:640
+#: admin/plugin-settings/settings/email-settings.php:712
+#: admin/plugin-settings/settings/email-settings.php:776
+#: admin/plugin-settings/settings/email-settings.php:840
+#: admin/plugin-settings/settings/email-settings.php:905
+#: admin/plugin-settings/settings/email-settings.php:970
+#: admin/plugin-settings/settings/email-settings.php:1046
+#: admin/plugin-settings/settings/email-settings.php:1110
+#: admin/plugin-settings/settings/email-settings.php:1173
+#: admin/plugin-settings/settings/email-settings.php:1236
+#: admin/plugin-settings/settings/email-settings.php:1311
+#: admin/plugin-settings/settings/email-settings.php:1374
+msgid "Please add text."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1598
+msgid "Please add the comments."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1573
+msgid "Please assign reviewer first to start converstation"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1364
+msgid "Please confirm your password."
+msgstr ""
+
+#: public/partials/woo-hooks.php:332
+msgid "Please install WooCommerce plugin to process this order"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:915
+msgid "Please select at least one article."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:889
+msgid "Please select atleast one article."
+msgstr ""
+
+#: public/class-peer-review-system-public.php:134
+msgid "Please select atleast one category."
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:44
+msgid "Please select new user type for defult registration"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:33
+msgid "Please select new user verification type"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:829
+msgid "Please try again"
+msgstr ""
+
+#: public/partials/functions.php:244
+msgid "Poland"
+msgstr ""
+
+#: public/partials/functions.php:245
+msgid "Portugal"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:203
+#: templates/article-loop/author-article-feedback.php:162
+msgid "Prev"
+msgstr ""
+
+#: templates/dashboard/profile-avatar-popup.php:31
+msgid "Profile avatar"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:74
+msgid "Profile verification"
+msgstr ""
+
+#: admin/plugin-settings/init.php:25 admin/plugin-settings/init.php:26
+msgid "PRS settings"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:137
+msgid "Publish article"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:178
+msgid "Publish edition"
+msgstr ""
+
+#: templates/dashboard/article-status-search.php:21
+msgid "Published"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:92
+msgid "Purchase article description."
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:85
+msgid "Purchase article title"
+msgstr ""
+
+#: public/partials/functions.php:246
+msgid "Qatar"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:153
+msgid "Quantity"
+msgstr ""
+
+#: templates/article-loop/article-quick-action.php:22
+#: templates/article-loop/article-quick-action.php:31
+#: templates/article-loop/article-quick-action.php:53
+#: templates/dashboard/editor/manage-editions.php:172
+msgid "Quick action"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:181
+msgid "Quick edit"
+msgstr ""
+
+#: templates/dashboard/author/article-details.php:48
+msgid "Re-submit article"
+msgstr ""
+
+#: templates/single-articles/article-author-detail.php:45
+msgid "Read less"
+msgstr ""
+
+#: templates/single-articles/article-author-detail.php:41
+msgid "Read more"
+msgstr ""
+
+#: templates/forgot.php:78
+msgid "Recover password"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:186
+msgid "Refunded:"
+msgstr ""
+
+#: helpers/email-helper.php:163
+msgid "Regards"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:61
+msgid "Regards,"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:88
+msgid "Register form"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1479
+msgid "Registered!"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:219
+msgid "Registration"
+msgstr ""
+
+#: helpers/templates/register.php:372
+msgid "Registration at {{sitename}} via google account"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:58
+msgid "Registration page"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:103
+#: admin/partials/peer-review-admin-display.php:96
+msgid "Reject"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:95
+msgid "Reject user account"
+msgstr ""
+
+#: public/partials/hooks.php:147
+#: templates/article-loop/article-feedback.php:159
+#: templates/article-loop/author-article-feedback.php:119
+#: templates/dashboard/reviewer/article-status-search.php:26
+msgid "Rejected"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:117
+#: templates/dashboard/author/rejected-article-listings.php:74
+#: templates/dashboard/editor/rejected-article-listings.php:75
+#: templates/dashboard/reviewer/rejected-article-listings.php:87
+#: templates/dashboard/menus/author/dashboard-menus.php:99
+#: templates/dashboard/menus/editor/dashboard-menus.php:109
+msgid "Rejected articles"
+msgstr ""
+
+#: templates/single-articles/related-article.php:45
+msgid "Related articles"
+msgstr ""
+
+#: templates/single-edition/related-editions.php:27
+msgid "Related editions"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:184
+msgid "Remove"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:139
+#: templates/article-loop/article-quick-action.php:43
+msgid "Remove article"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:141
+msgid "Remove edition"
+msgstr ""
+
+#: templates/article-loop/article-revision-reply.php:31
+msgid "Reply to author with status"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:221
+msgid "Reply to editor with status"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:223
+msgid "Reply to reviewer"
+msgstr ""
+
+#: public/partials/functions.php:175
+msgid "Republic of Ireland"
+msgstr ""
+
+#: templates/search-articles.php:96
+msgid "Reset filter"
+msgstr ""
+
+#: helpers/templates/register.php:342
+msgid "Reset link"
+msgstr ""
+
+#: helpers/templates/register.php:326
+msgid "Reset password - {{sitename}}"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:467
+msgid "Reset password link has been sent, please check your email."
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:65
+msgid "Reset password page"
+msgstr ""
+
+#: public/partials/functions.php:587
+msgid "Restricted Access"
+msgstr ""
+
+#: public/partials/functions.php:409
+msgid "Restricted access!"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:155
+#: templates/dashboard/personal-details.php:157
+#: templates/dashboard/personal-details.php:159
+msgid "Retype password"
+msgstr ""
+
+#: public/partials/functions.php:247
+msgid "Reunion"
+msgstr ""
+
+#: templates/user-type-js-templates.php:34 admin/plugin-settings/init.php:65
+#: admin/plugin-settings/settings/email-settings.php:1263
+#: admin/plugin-settings/settings/general-settings.php:48
+msgid "Reviewer"
+msgstr ""
+
+#: helpers/templates/editor-emails.php:80
+#: admin/plugin-settings/settings/email-settings.php:1015
+msgid "Reviewer comment on assigned article"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1007
+msgid "Reviewer comment to editor"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:46
+msgid "Reviewer Feedback"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:865
+msgid "Revision required"
+msgstr ""
+
+#: public/partials/functions.php:248
+msgid "Romania"
+msgstr ""
+
+#: public/partials/functions.php:249
+msgid "Russia"
+msgstr ""
+
+#: public/partials/functions.php:250
+msgid "Rwanda"
+msgstr ""
+
+#: public/partials/functions.php:260
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: public/partials/functions.php:251
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: public/partials/functions.php:252
+msgid "Saint Helena"
+msgstr ""
+
+#: public/partials/functions.php:253
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: public/partials/functions.php:254
+msgid "Saint Lucia"
+msgstr ""
+
+#: public/partials/functions.php:256
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: public/partials/functions.php:255
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: public/partials/functions.php:257
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: public/partials/functions.php:258
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: widgets/class-buy-sell-footer.php:29
+msgid "Sale & buy widget"
+msgstr ""
+
+#. Base ID
+#: widgets/class-buy-sell-footer.php:26
+msgid "Sale & buy | Peer Review System"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:81
+msgid "Sample article file"
+msgstr ""
+
+#: public/partials/functions.php:259
+msgid "San Marino"
+msgstr ""
+
+#: public/partials/functions.php:261
+msgid "Saudi Arabia"
+msgstr ""
+
+#: templates/dashboard/profile-avatar-popup.php:25
+msgid "Save"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:116
+#: templates/dashboard/editor/approved-article-listings.php:145
+#: templates/dashboard/editor/manage-editions.php:263
+msgid "Save & update"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:117
+msgid "Save & update the latest changes to the live"
+msgstr ""
+
+#: templates/article-search/search-keyword.php:15
+msgid "Search"
+msgstr ""
+
+#: admin/cpt/articles.php:50
+msgid "Search article"
+msgstr ""
+
+#: public/partials/template-loader.php:40
+msgid "Search articles"
+msgstr ""
+
+#: admin/cpt/editions.php:50
+msgid "Search edition"
+msgstr ""
+
+#: public/partials/template-loader.php:41
+msgid "Search editions"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:107
+msgid "Search here"
+msgstr ""
+
+#: templates/dashboard/article-search-form.php:36
+msgid "Search keyword"
+msgstr ""
+
+#: templates/dashboard/article-search-form.php:55
+msgid "Search now"
+msgstr ""
+
+#: templates/search-editions.php:51
+#: templates/article-search/search-keyword.php:20
+msgid "Search with keyword"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:144
+#: public/partials/ajax-hooks.php:22 public/partials/ajax-hooks.php:126
+#: public/partials/ajax-hooks.php:321 public/partials/ajax-hooks.php:398
+#: public/partials/ajax-hooks.php:496 public/partials/ajax-hooks.php:545
+#: public/partials/ajax-hooks.php:804 public/partials/ajax-hooks.php:863
+#: public/partials/ajax-hooks.php:939 public/partials/ajax-hooks.php:1031
+#: public/partials/ajax-hooks.php:1130 public/partials/ajax-hooks.php:1262
+#: public/partials/ajax-hooks.php:1349 public/partials/ajax-hooks.php:1434
+#: public/partials/ajax-hooks.php:1871 public/partials/ajax-hooks.php:1915
+#: public/partials/ajax-hooks.php:1984 public/partials/ajax-hooks.php:2065
+#: public/partials/ajax-hooks.php:2142 public/partials/ajax-hooks.php:2204
+#: public/partials/ajax-hooks.php:2287 public/partials/ajax-hooks.php:2356
+#: public/partials/ajax-hooks.php:2388
+msgid ""
+"Security check failed, this could be because of your browser cache. Please "
+"clear the cache and check it again"
+msgstr ""
+
+#: templates/search-articles.php:112
+#: templates/dashboard/author/add-article.php:112
+msgid "Select article category"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:283
+msgid "Select articles from list"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:280
+msgid "Select articles from list below"
+msgstr ""
+
+#: templates/dashboard/article-search-form.php:43
+#: templates/dashboard/author/add-article.php:110
+#: templates/dashboard/author/add-article.php:113
+msgid "Select category"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:77
+msgid "Select Country from list"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:86
+#: templates/dashboard/editor/manage-editions.php:257
+msgid "Select edition date"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:104
+msgid "Select File"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:53
+msgid "Select login page"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:39
+msgid "Select page for the article search"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:32
+msgid "Select page for the dashboard"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:46
+msgid "Select page for the edition search"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:67
+msgid "Select password strength"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:60
+msgid "Select registration page"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:67
+msgid "Select reset password page"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:51
+#: templates/article-loop/article-feedback.php:53
+msgid "Select reviewer"
+msgstr ""
+
+#: templates/dashboard/editor/manage-editions.php:282
+msgid "Select reviewer from list"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:231
+#: templates/article-loop/article-feedback.php:232
+#: templates/article-loop/article-revision-reply.php:35
+#: templates/article-loop/article-revision-reply.php:35
+#: templates/article-loop/article-revision-reply.php:36
+msgid "Select revision status"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:74
+msgid "Select terms & conditions"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:32
+msgid "Send Email"
+msgstr ""
+
+#: templates/forgot.php:147
+msgid "Send reset link"
+msgstr ""
+
+#: public/partials/functions.php:262
+msgid "Senegal"
+msgstr ""
+
+#: public/partials/functions.php:263
+msgid "Serbia"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:85
+msgid "Settings have been updated successfully."
+msgstr ""
+
+#: public/partials/functions.php:264
+msgid "Seychelles"
+msgstr ""
+
+#: elementor/shortcodes/auth.php:160
+msgid "Short description"
+msgstr ""
+
+#: templates/article-search/search-category.php:41
+#: templates/single-edition/edition-author-detail.php:45
+msgid "Show less"
+msgstr ""
+
+#: templates/article-search/search-category.php:41
+#: templates/single-edition/edition-author-detail.php:41
+msgid "Show more"
+msgstr ""
+
+#: templates/dashboard/article-status-search.php:16
+#: templates/dashboard/reviewer/article-status-search.php:18
+msgid "Show only"
+msgstr ""
+
+#: templates/search-articles.php:107
+#, php-format
+msgid "Showing results <span>%d to %d</span> of %d articles"
+msgstr ""
+
+#: public/partials/functions.php:265
+msgid "Sierra Leone"
+msgstr ""
+
+#: templates/forgot.php:86
+msgid "Sign in"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:421
+msgid "Signed up at {{sitename}} via google account"
+msgstr ""
+
+#: public/partials/functions.php:266
+msgid "Singapore"
+msgstr ""
+
+#: public/partials/functions.php:267
+msgid "Slovakia"
+msgstr ""
+
+#: public/partials/functions.php:268
+msgid "Slovenia"
+msgstr ""
+
+#: public/partials/functions.php:269
+msgid "Solomon Islands"
+msgstr ""
+
+#: public/partials/functions.php:270
+msgid "Somalia"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:156
+msgid "Some data has ben lost, please try again"
+msgstr ""
+
+#: includes/class-file-permission.php:217
+msgid "Some errors occurred, please try again later"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:592
+msgid "Some required field are missing."
+msgstr ""
+
+#: helpers/templates/register.php:328
+msgid ""
+"Someone requested to reset the password of following account: <br/> Email "
+"Address: {{email}} <br/>If this was a mistake, just ignore this email and "
+"nothing will happen.<br/>To reset your password, click reset link below:<br/>"
+"{{reset_link}}"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1605 public/partials/ajax-hooks.php:1718
+msgid "Something is missing."
+msgstr ""
+
+#: public/partials/woo-hooks.php:270 public/partials/woo-hooks.php:271
+#: public/partials/woo-hooks.php:272
+msgid "Something went wrong"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:840
+msgid "Something went wrong!"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:145
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:89 public/partials/ajax-hooks.php:94
+#: public/partials/ajax-hooks.php:780 public/partials/ajax-hooks.php:909
+#: public/partials/ajax-hooks.php:1007 public/partials/ajax-hooks.php:1106
+#: public/partials/ajax-hooks.php:1153 public/partials/ajax-hooks.php:1206
+#: public/partials/ajax-hooks.php:1219 public/partials/ajax-hooks.php:1226
+#: public/partials/ajax-hooks.php:1313 public/partials/ajax-hooks.php:1393
+#: public/partials/ajax-hooks.php:1682 public/partials/ajax-hooks.php:1844
+#: public/partials/ajax-hooks.php:2122 public/partials/ajax-hooks.php:2439
+msgid "Something went wrong."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1997 public/partials/ajax-hooks.php:2155
+#: public/partials/ajax-hooks.php:2220
+msgid "Something went wrong. Please try again after refresh page."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1152
+msgid "Something went wtong."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1966 public/partials/ajax-hooks.php:2041
+#: public/partials/ajax-hooks.php:2186
+msgid "Sorry you are not allowed"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:559 public/partials/ajax-hooks.php:818
+#: public/partials/ajax-hooks.php:877 public/partials/ajax-hooks.php:953
+#: public/partials/ajax-hooks.php:1045 public/partials/ajax-hooks.php:1144
+#: public/partials/ajax-hooks.php:1253 public/partials/ajax-hooks.php:1340
+#: public/partials/ajax-hooks.php:2079
+msgid "Sorry! you are not allowed."
+msgstr ""
+
+#: templates/search-articles.php:112
+#: templates/article-loop/article-feedback.php:53
+#: templates/dashboard/user-invoices.php:58
+msgid "Sort by"
+msgstr ""
+
+#: templates/search-articles.php:115
+msgid "Sort by date"
+msgstr ""
+
+#: templates/search-articles.php:113
+msgid "Sort by ID"
+msgstr ""
+
+#: templates/search-articles.php:114
+msgid "Sort by name"
+msgstr ""
+
+#: public/partials/functions.php:271
+msgid "South Africa"
+msgstr ""
+
+#: public/partials/functions.php:272
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: public/partials/functions.php:273
+msgid "South Korea"
+msgstr ""
+
+#: public/partials/functions.php:274
+msgid "South Sudan"
+msgstr ""
+
+#: public/partials/functions.php:275
+msgid "Spain"
+msgstr ""
+
+#: public/partials/functions.php:276
+msgid "Sri Lanka"
+msgstr ""
+
+#: templates/inbox.php:27
+msgid "Start conversation"
+msgstr ""
+
+#: templates/article-loop/article-feedback.php:180
+#: templates/article-loop/author-article-feedback.php:139
+msgid "Status"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:84
+#: admin/plugin-settings/settings/email-settings.php:154
+#: admin/plugin-settings/settings/email-settings.php:236
+#: admin/plugin-settings/settings/email-settings.php:296
+#: admin/plugin-settings/settings/email-settings.php:358
+#: admin/plugin-settings/settings/email-settings.php:419
+#: admin/plugin-settings/settings/email-settings.php:482
+#: admin/plugin-settings/settings/email-settings.php:545
+#: admin/plugin-settings/settings/email-settings.php:607
+#: admin/plugin-settings/settings/email-settings.php:681
+#: admin/plugin-settings/settings/email-settings.php:743
+#: admin/plugin-settings/settings/email-settings.php:807
+#: admin/plugin-settings/settings/email-settings.php:871
+#: admin/plugin-settings/settings/email-settings.php:936
+#: admin/plugin-settings/settings/email-settings.php:1013
+#: admin/plugin-settings/settings/email-settings.php:1077
+#: admin/plugin-settings/settings/email-settings.php:1141
+#: admin/plugin-settings/settings/email-settings.php:1204
+#: admin/plugin-settings/settings/email-settings.php:1279
+#: admin/plugin-settings/settings/email-settings.php:1342
+msgid "Subject"
+msgstr ""
+
+#: public/partials/hooks.php:290
+#: templates/article-search/empty-articles-listing.php:29
+msgid "Submit article"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:309
+msgid "Submit article now"
+msgstr ""
+
+#: templates/search-articles.php:129
+#: templates/article-loop/article-feedback.php:249
+#: templates/article-loop/article-revision-reply.php:61
+msgid "Submit now"
+msgstr ""
+
+#: templates/search-articles.php:128
+msgid "Submit Now & Make Your Online Presence"
+msgstr ""
+
+#: templates/user-type-js-templates.php:38 admin/plugin-settings/init.php:63
+#: admin/plugin-settings/settings/general-settings.php:46
+msgid "Subscriber"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:178
+msgid "Subtotal:"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:84 public/partials/ajax-hooks.php:267
+#: public/partials/ajax-hooks.php:292 public/partials/ajax-hooks.php:774
+#: public/partials/ajax-hooks.php:833 public/partials/ajax-hooks.php:903
+#: public/partials/ajax-hooks.php:1001 public/partials/ajax-hooks.php:1100
+#: public/partials/ajax-hooks.php:1200 public/partials/ajax-hooks.php:1213
+#: public/partials/ajax-hooks.php:1307 public/partials/ajax-hooks.php:1387
+#: public/partials/ajax-hooks.php:2116
+msgid "Success"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1676 public/partials/ajax-hooks.php:1838
+#: public/partials/ajax-hooks.php:1960 public/partials/ajax-hooks.php:2035
+#: public/partials/ajax-hooks.php:2180 public/partials/ajax-hooks.php:2257
+#: public/partials/ajax-hooks.php:2361
+msgid "Success!"
+msgstr ""
+
+#: public/partials/functions.php:277
+msgid "Sudan"
+msgstr ""
+
+#: public/partials/woo-hooks.php:45 public/partials/woo-hooks.php:208
+#: public/partials/woo-hooks.php:239
+msgid "Summary"
+msgstr ""
+
+#: widgets/class-growing-expanding.php:139
+msgid "Support section description"
+msgstr ""
+
+#: widgets/class-growing-expanding.php:135
+msgid "Support section title"
+msgstr ""
+
+#: public/partials/functions.php:278
+msgid "Suriname"
+msgstr ""
+
+#: public/partials/functions.php:279
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: public/partials/functions.php:280
+msgid "Swaziland"
+msgstr ""
+
+#: public/partials/functions.php:281
+msgid "Sweden"
+msgstr ""
+
+#: public/partials/functions.php:282
+msgid "Switzerland"
+msgstr ""
+
+#: public/partials/functions.php:283
+msgid "Syria"
+msgstr ""
+
+#: public/partials/functions.php:284
+msgid "Taiwan"
+msgstr ""
+
+#: public/partials/functions.php:285
+msgid "Tajikistan"
+msgstr ""
+
+#: public/partials/functions.php:286
+msgid "Tanzania"
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:21
+msgid "Template settings"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:204
+#: admin/plugin-settings/settings/page-template-settings.php:72
+msgid "Terms & conditions"
+msgstr ""
+
+#: public/partials/functions.php:287
+msgid "Thailand"
+msgstr ""
+
+#: helpers/templates/register.php:32 helpers/templates/register.php:118
+#: helpers/templates/register.php:284
+msgid "Thank you for registration at {{sitename}}"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:238
+#: admin/plugin-settings/settings/email-settings.php:298
+#: admin/plugin-settings/settings/email-settings.php:484
+msgid "Thank you for signing up at {{sitename}}"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:335
+msgid ""
+"Thank you for signing up at “{{sitename}}”. <br />Please click the link "
+"below to verify your account <br /> {{verification_link}}."
+msgstr ""
+
+#: helpers/templates/register.php:374
+msgid ""
+"Thank you for the registration at \"{{sitename}}\" Your account has been "
+"created. "
+msgstr ""
+
+#: helpers/templates/register.php:286
+msgid ""
+"Thank you for the registration at \"{{sitename}}\". Please click below link "
+"to verify your account<br/> {{verification_link}}"
+msgstr ""
+
+#: helpers/templates/register.php:120
+msgid ""
+"Thank you for the registration at \"{{sitename}}\". Your account will be "
+"approved after the verification."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:522
+msgid ""
+"Thank you for the signing up at {{sitename}}. Your account will be approved "
+"after the verification."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:459
+msgid ""
+"Thank you for the signing up at “{{sitename}}” Your account has been created "
+"successfully. "
+msgstr ""
+
+#: helpers/templates/author-emails.php:218
+#: admin/plugin-settings/settings/email-settings.php:912
+msgid ""
+"Thank you for your submission <br/>Your article with the name "
+"“{{article_name}}” needs improvements. You can review it again and resubmit "
+"it after the changes <br/>Here is the feedback:<br/>{{feedback}}"
+msgstr ""
+
+#: helpers/templates/author-emails.php:170
+#: admin/plugin-settings/settings/email-settings.php:977
+msgid ""
+"Thank you for your submission<br/> Your article with the name "
+"“{{article_name}}” has been hard rejected and you can’t resubmit it."
+msgstr ""
+
+#: helpers/templates/editor-emails.php:167
+#: admin/plugin-settings/settings/email-settings.php:1243
+msgid ""
+"The author {{author_name}} has resubmitted the article “{{article_name}}”. "
+"You can review it and provide your review on this"
+msgstr ""
+
+#: helpers/templates/editor-emails.php:36
+#: admin/plugin-settings/settings/email-settings.php:1117
+msgid ""
+"The author {{author_name}} send the comment on the article \"{{article_name}}"
+"\" and has left some comments “{{author_comment}}”"
+msgstr ""
+
+#: helpers/templates/reviewer-emails.php:77
+#: admin/plugin-settings/settings/email-settings.php:1381
+msgid ""
+"The editor “{{editor_name}}” has requested to review the article "
+"“{{article_name}}” again. You can review the article and leave your comments "
+"with the status"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:429
+msgid "The email address does not exist"
+msgstr ""
+
+#: helpers/templates/editor-emails.php:82
+#: admin/plugin-settings/settings/email-settings.php:1053
+msgid ""
+"The review {{reviewer_name}} has been completed the review on the article "
+"\"{{article_name}}\" and has left some comments with the status "
+"“{{review_status}}”"
+msgstr ""
+
+#: templates/article-search/empty-articles-listing.php:27
+msgid "There is no content to show."
+msgstr ""
+
+#: includes/class-file-permission.php:64 includes/class-file-permission.php:167
+msgid "These file types are not allowed"
+msgstr ""
+
+#: includes/class-file-permission.php:80 includes/class-file-permission.php:278
+msgid "These file types are not allowed!"
+msgstr ""
+
+#: templates/dashboard/editor/approved-article-listings.php:118
+msgid "Third party download URL"
+msgstr ""
+
+#: admin/cpt/articles.php:55
+msgid "This is where you can add new articles "
+msgstr ""
+
+#: admin/cpt/editions.php:55
+msgid "This is where you can add new edition "
+msgstr ""
+
+#: public/partials/functions.php:288
+msgid "Timor-Leste"
+msgstr ""
+
+#: widgets/class-buy-sell-footer.php:94 widgets/class-growing-expanding.php:131
+msgid "Title"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:243
+#: templates/dashboard/editor/manage-editions.php:70
+#: templates/dashboard/editor/manage-editions.php:241
+msgid "to upload photo"
+msgstr ""
+
+#: public/partials/functions.php:289
+msgid "Togo"
+msgstr ""
+
+#: public/partials/functions.php:290
+msgid "Tokelau"
+msgstr ""
+
+#: public/partials/functions.php:291
+msgid "Tonga"
+msgstr ""
+
+#: templates/dashboard/invoice-detail.php:194
+msgid "Total:"
+msgstr ""
+
+#: public/partials/functions.php:292
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: public/partials/functions.php:293
+msgid "Tunisia"
+msgstr ""
+
+#: public/partials/functions.php:294
+msgid "Turkey"
+msgstr ""
+
+#: public/partials/functions.php:295
+msgid "Turkmenistan"
+msgstr ""
+
+#: public/partials/functions.php:296
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: public/partials/functions.php:297
+msgid "Tuvalu"
+msgstr ""
+
+#: templates/forgot.php:70 templates/forgot.php:72
+msgid "Type your new password"
+msgstr ""
+
+#: public/partials/functions.php:298
+msgid "Uganda"
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:106
+msgid "Uh ho! No invoice available to show"
+msgstr ""
+
+#: public/partials/functions.php:299
+msgid "Ukraine"
+msgstr ""
+
+#: templates/dashboard/reviewer/article-status-search.php:23
+msgid "Under review"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:130
+#: templates/dashboard/menus/author/dashboard-menus.php:64
+msgid "Under review articles"
+msgstr ""
+
+#: public/partials/functions.php:300
+msgid "United Arab Emirates"
+msgstr ""
+
+#: public/partials/functions.php:301
+msgid "United Kingdom"
+msgstr ""
+
+#: public/partials/functions.php:302
+msgid "United States"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:194
+msgid "unverified"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:165
+msgid "Update"
+msgstr ""
+
+#: admin/cpt/articles.php:47
+msgid "Update article"
+msgstr ""
+
+#: admin/cpt/editions.php:47
+msgid "Update edition"
+msgstr ""
+
+#: admin/plugin-settings/settings/sample-article.php:41
+msgid "Upload article sample file"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:236
+#: templates/dashboard/editor/manage-editions.php:63
+#: templates/dashboard/editor/manage-editions.php:234
+msgid "Upload cover photo"
+msgstr ""
+
+#: templates/dashboard/author/add-article.php:253
+msgid "Upload documents"
+msgstr ""
+
+#: admin/plugin-settings/settings/sample-article.php:39
+msgid "Upload file"
+msgstr ""
+
+#: templates/dashboard/profile-avatar-popup.php:16
+msgid "Upload profile photo"
+msgstr ""
+
+#: admin/plugin-settings/settings/header-settings.php:22
+msgid "Upload site header logo."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:34
+msgid "Upload your email logo here."
+msgstr ""
+
+#: public/partials/functions.php:303
+msgid "Uruguay"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:98
+msgid "user"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:25
+msgid "User Account Approve"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:539
+msgid "User Account Approved"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:601
+msgid "User Acoount rejected"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:191
+msgid "User already exists, please try another one."
+msgstr ""
+
+#: admin/plugin-settings/settings/page-template-settings.php:30
+msgid "User dashboard page"
+msgstr ""
+
+#: admin/plugin-settings/settings/default-images-setting.php:22
+msgid "User default profile image"
+msgstr ""
+
+#: public/partials/hooks.php:195
+msgid "User imported successfully"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:165
+msgid "User not exists"
+msgstr ""
+
+#: public/partials/class-dashboard-menu.php:311
+msgid "User profile"
+msgstr ""
+
+#: widgets/class-growing-expanding.php:157
+msgid "User section description"
+msgstr ""
+
+#: widgets/class-growing-expanding.php:152
+msgid "User section title"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:139
+msgid "User type is required"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:128
+msgid "Username required."
+msgstr ""
+
+#: templates/forgot.php:141 templates/login.php:68
+msgid "Username/email"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2362
+msgid "Users have been imported successfully"
+msgstr ""
+
+#: public/partials/functions.php:304
+msgid "Uzbekistan"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:129
+msgid "Valid email required"
+msgstr ""
+
+#: public/partials/functions.php:305
+msgid "Vanuatu"
+msgstr ""
+
+#: public/partials/functions.php:306
+msgid "Vatican"
+msgstr ""
+
+#: public/partials/functions.php:307
+msgid "Venezuela"
+msgstr ""
+
+#: helpers/templates/register.php:301
+msgid "Verification link"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:36
+msgid "Verify by admin"
+msgstr ""
+
+#: admin/plugin-settings/settings/general-settings.php:35
+msgid "Verify by auto generated link"
+msgstr ""
+
+#: public/partials/functions.php:308
+msgid "Vietnam"
+msgstr ""
+
+#: templates/single-edition/edition-top-box.php:55
+msgid "View all editions"
+msgstr ""
+
+#: admin/cpt/articles.php:48 admin/cpt/articles.php:49
+#: templates/article-loop/article-quick-action.php:34
+#: templates/article-loop/article-quick-action.php:64
+#: templates/single-edition/edition-assign-articles.php:65
+msgid "View article"
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:96
+msgid "View detail"
+msgstr ""
+
+#: templates/article-search/article-view.php:36
+msgid "View details"
+msgstr ""
+
+#: templates/search-editions.php:104 admin/cpt/editions.php:48
+#: admin/cpt/editions.php:49
+msgid "View edition"
+msgstr ""
+
+#: templates/article-loop/article-quick-action.php:25
+#: templates/article-loop/article-quick-action.php:56
+msgid "View history"
+msgstr ""
+
+#: public/partials/functions.php:309
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: templates/dashboard/user-invoices.php:107
+msgid "We're sorry but there is no invoices available to show today"
+msgstr ""
+
+#: templates/article-search/article-not-editable.php:16
+msgid "We're sorry but this article is not available to edit."
+msgstr ""
+
+#: elementor/shortcodes/auth.php:135
+msgid "Welcome text"
+msgstr ""
+
+#: public/partials/functions.php:310
+msgid "Western Sahara"
+msgstr ""
+
+#: public/partials/functions.php:311
+msgid "Western Samoa"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:466 public/partials/ajax-hooks.php:514
+msgid "Woohoo"
+msgstr ""
+
+#: admin/partials/peer-review-admin-display.php:196
+#: public/partials/ajax-hooks.php:373
+msgid "Woohoo!"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:355
+msgid "Wrong email/username or password."
+msgstr ""
+
+#: public/partials/functions.php:312
+msgid "Yemen"
+msgstr ""
+
+#: admin/class-peer-review-system-admin.php:99
+msgid "Yes"
+msgstr ""
+
+#: public/partials/functions.php:588
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: public/partials/functions.php:410
+msgid "You are not allowed to update the record on the demo site"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:374
+msgid "You are successfully logged in"
+msgstr ""
+
+#: admin/plugin-settings/settings/sample-article.php:31
+msgid ""
+"You can download the article sample file. It will describe article formating "
+"rules."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:599
+msgid "You have agree with terms & condition."
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1180
+msgid ""
+"You have received a new article \"{{article_name}}\" from \"{{author_name}}"
+"\", your review is required on this article"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1318
+msgid ""
+"You have received a new article \"{{article_name}}\" from \"{{editor_name}}"
+"\" for review, you can review and leave your comments on it"
+msgstr ""
+
+#: helpers/templates/editor-emails.php:125
+msgid ""
+"You have received a new article from {{author_name}}, your review is "
+"required on this article"
+msgstr ""
+
+#: helpers/templates/reviewer-emails.php:35
+msgid ""
+"You have received a new article from {{editor_name}} for review, you can "
+"review and leave your comments on it"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:1472
+msgid "You have successfully logged in"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:138
+msgid "You must accept terms and conditions"
+msgstr ""
+
+#: public/class-peer-review-system-public.php:136
+msgid "You must agree our terms & conditions before signup."
+msgstr ""
+
+#: public/partials/woo-hooks.php:324
+msgid "You're now redirecting to the checkout page"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:261
+msgid ""
+"Your account has been created. Please verify your account through the email "
+"that has been sent to your email address."
+msgstr ""
+
+#: public/partials/ajax-hooks.php:263
+msgid ""
+"Your account has been created. Please wait while your account is verified by "
+"the admin."
+msgstr ""
+
+#: helpers/templates/register.php:199
+#: admin/plugin-settings/settings/email-settings.php:647
+msgid "Your account has been rejected by the admin."
+msgstr ""
+
+#: helpers/templates/author-emails.php:168
+#: admin/plugin-settings/settings/email-settings.php:938
+msgid "Your article “{{article_name}}” has been rejected"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2331 public/partials/ajax-hooks.php:2434
+msgid "Your files have been donwloaded"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:47
+#: templates/dashboard/personal-details.php:49
+msgid "Your first name"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:57
+#: templates/dashboard/personal-details.php:59
+msgid "Your last name"
+msgstr ""
+
+#: templates/login.php:77
+msgid "Your password"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1281
+msgid "Your review required on the article"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:65
+msgid "Your tagline"
+msgstr ""
+
+#: public/partials/functions.php:313
+msgid "Zambia"
+msgstr ""
+
+#: public/partials/functions.php:314
+msgid "Zimbabwe"
+msgstr ""
+
+#: public/partials/ajax-hooks.php:2324 public/partials/ajax-hooks.php:2427
+msgid ""
+"Zip library is not installed on the server, please contact to hosting "
+"provider"
+msgstr ""
+
+#: templates/dashboard/personal-details.php:97
+msgid "Zipcode"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:426
+msgid ""
+"{{name}} — To display the user name.<br>\n"
+"\t\t\t\t\t\t\t\t{{email}} — To display the user email.<br>\n"
+"\t\t\t\t\t\t\t\t{{login_url}} — To display the login url.<br>\n"
+"\t\t\t\t\t\t\t\t{{sitename}} — To display the sitename.<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:98
+msgid ""
+"{{name}} — To display the user name.<br>\n"
+"\t\t\t\t\t\t\t\t{{email}} — To display the user email.<br>\n"
+"\t\t\t\t\t\t\t\t{{sitename}} — To display the sitename.<br>\n"
+"\t\t\t\t\t\t\t\t{{login_url}} — To display the login url.<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:365
+msgid ""
+"{{name}} — To display the user name.<br>\n"
+"\t\t\t\t\t\t\t\t{{email}} — To display the user email.<br>\n"
+"\t\t\t\t\t\t\t\t{{sitename}} — To display the sitename.<br>\n"
+"\t\t\t\t\t\t\t\t{{reset_link}} — To display the reset link.<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:168
+msgid ""
+"{{name}} — To display the user name.<br>\n"
+"\t\t\t\t\t\t\t{{email}} — To display the user email.<br>\n"
+"\t\t\t\t\t\t\t{{sitename}} — To display the sitename.<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:243
+msgid ""
+"{{name}} — To display the user name.<br>\n"
+"\t\t\t\t\t\t{{email}} — To display the email<br/>\n"
+"\t\t\t\t\t\t{{sitename}} — To display the sitename<br/>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:303
+msgid ""
+"{{name}} — To display the user name.<br>\n"
+"\t\t\t\t\t\t{{email}} — To display the email<br/>\n"
+"\t\t\t\t\t\t{{sitename}} — To display the sitename<br/>\n"
+"\t\t\t\t\t\t{{password}} — To display the password<br/>\n"
+"\t\t\t\t\t\t{{verification_link}} — To display the verification link<br/>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:489
+msgid ""
+"{{name}} — To display the user name.<br>\n"
+"\t\t\t\t\t\t{{email}} — To display the user email.<br>\n"
+"\t\t\t\t\t\t{{password}} — To display the user password.<br>\n"
+"\t\t\t\t\t\t{{sitename}} — To display the sitename.<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:552
+msgid ""
+"{{name}} — To display the user name.<br>\n"
+"\t\t\t\t\t\t{{email}} — To display the user email.<br>\n"
+"\t\t\t\t\t\t{{sitename}} — To display the sitename.<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:615
+msgid ""
+"{{name}} — To display the user name.<br>\n"
+"\t\t\t\t\t{{email}} — To display the user email.<br>\n"
+"\t\t\t\t\t{{sitename}} — To display the sitename.<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:814
+msgid ""
+"{{user_name}} — To display the author name.<br>\n"
+"\t\t\t\t\t{{article_names}} — To display the author name.<br>\n"
+"\t\t\t\t\t{{edition_link}} — To display the edition link.<br>\n"
+"\t\t\t\t\t{{edition_name}} — To display the edition name<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:878
+msgid ""
+"{{user_name}} — To display the author name.<br>\n"
+"\t\t\t\t\t{{article_name}} — To display the article name.<br>\n"
+"\t\t\t\t\t{{editor_name}} — To display the editor name.<br>\n"
+"\t\t\t\t\t{{review_status}} — To display the review status.<br>\n"
+"\t\t\t\t\t{{feedback}} — To display the feedback<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:688
+msgid ""
+"{{user_name}} — To display the author name.<br>\n"
+"\t\t\t\t\t{{article_name}} — To display the article name<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:750
+msgid ""
+"{{user_name}} — To display the author name.<br>\n"
+"\t\t\t\t\t{{article_name}} — To display the article name<br>\n"
+"\t\t\t\t\t{{article_link}} — To display the article link<br>\n"
+"\t\t\t\t\t{{editor_name}} — To display the editor name<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:943
+msgid ""
+"{{user_name}} — To display the author name.<br>\n"
+"\t\t\t\t\t{{editor_name}} — To display the editor name.<br>\n"
+"\t\t\t\t\t{{review_status}} — To display the review status.<br>\n"
+"\t\t\t\t\t{{review_comment}} — To display the review comments.<br>\n"
+"\t\t\t\t\t{{article_name}} — To display the article name<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1084
+msgid ""
+"{{user_name}} — To display the editor name.<br>\n"
+"\t\t\t\t\t{{article_name}} — To display the article name<br>\n"
+"\t\t\t\t\t{{author_comment}} — To display the review status<br>\n"
+"\t\t\t\t\t{{author_name}} — To display the article author name<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1148
+#: admin/plugin-settings/settings/email-settings.php:1211
+msgid ""
+"{{user_name}} — To display the editor name.<br>\n"
+"\t\t\t\t\t{{article_name}} — To display the article name<br>\n"
+"\t\t\t\t\t{{author_name}} — To display the author name<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1020
+msgid ""
+"{{user_name}} — To display the editor name.<br>\n"
+"\t\t\t\t\t{{article_name}} — To display the article name<br>\n"
+"\t\t\t\t\t{{review_status}} — To display the review status<br>\n"
+"\t\t\t\t\t{{reviewer_name}} — To display the reviewer name<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1286
+msgid ""
+"{{user_name}} — To display the reviewer name.<br>\n"
+"\t\t\t\t\t{{article_name}} — To display the article name<br>\n"
+"\t\t\t\t\t{{editor_name}} — To display the editor name<br>"
+msgstr ""
+
+#: admin/plugin-settings/settings/email-settings.php:1349
+msgid ""
+"{{user_name}} — To display the reviewer name.<br>\n"
+"\t\t\t\t\t{{article_name}} — To display the article name<br>\n"
+"\t\t\t\t\t{{editor_name}} — To display the reviewer name<br>"
+msgstr ""
